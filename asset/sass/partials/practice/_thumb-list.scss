@@ -1,0 +1,19 @@
+// _thumb-list.scss
+
+.sc-row.sc-thumb-list{
+	&>*{
+		padding:0;
+		border-right:1px solid #fff;
+	}
+	
+	.sc-paragraph{
+		padding:20px 10px;
+		//line-height:21px;
+	}
+}
+
+.sc-row-gap.sc-thumb-list{
+	&>*{
+		border-right:none;
+	}
+}

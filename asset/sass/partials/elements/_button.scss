@@ -1,0 +1,145 @@
+// button.scss
+
+button{
+	font-family:$base-font-family;
+	//letter-spacing:-0.03em;
+}
+button::-moz-focus-inner {
+	padding:0 !important;
+	border:0 none !important;
+	outline:0 none !important;
+
+}
+
+.sc-btn{
+	display:inline-block;
+	outline:none;
+	border:none;
+	background:transparent;
+	cursor:pointer;
+	&>span{
+		display:block;
+		padding:8px 15px;
+		border:1px solid $color-button-border;
+		border-radius:$base-border-radius;
+		background:$color-button;
+		color:#FDFFF4;
+	//	@include background-gradient(#fff,#e1e1e1);
+	}
+	&:hover{
+		&>span{
+			background:$color-button-active;
+			border-color:$color-button-active;
+		}
+	}
+	
+	&-xsmall{
+		&>span{
+			padding:3px 10px;
+			@include font-size(11);
+		}
+	}
+	
+	&-small{
+		&>span{
+			padding:5px 10px;
+			@include font-size(12);
+		}
+	}
+	
+	&-large{
+		&>span{
+			@include font-size(17);
+		}
+	}
+	&-xlarge{
+		&>span{
+			padding:10px 40px;
+			@include font-size(21);
+		}
+	}
+	&-xxlarge{
+		&>span{
+			padding:12px 40px;
+			@include font-size(25);
+		}
+	}
+}
+
+.sc-btn-nude{
+	&>span{
+		background:#fff;
+		color:$color-button;
+		text-shadow:none;
+	//	@include background-gradient(#fff,#e1e1e1);
+	}
+	&:hover{
+		&>span{
+			background:#fff;
+			color:$color-button-active;
+		}
+	}
+}
+
+/* group box */
+[class*=sc-group]{
+	>button{
+		span{
+			border-radius:0;
+			outline:1px solid #fff;
+		}
+		&:first-child{
+			span{
+				border-top-left-radius:$base-border-radius;
+				border-bottom-left-radius:$base-border-radius;
+				border-right:none;
+			}
+		}
+		&:last-child{
+			span{
+				border-top-right-radius:$base-border-radius;
+				border-bottom-right-radius:$base-border-radius;
+				border-left:none;
+			}
+		}
+	}
+}
+
+.sc-group-vertical{
+	
+	>button{
+		float:none;
+		display:block;
+		span{
+			border-radius:0;
+		}
+		&:first-child{
+			span{
+				border-top-left-radius:$base-border-radius;
+				border-top-right-radius:$base-border-radius;
+				border-bottom-left-radius:0;
+				border-right:1px solid $color-button-border;
+				border-bottom:none;
+			}
+			&:hover{
+				span{
+					border-right:1px solid $color-button-active;
+				}
+			}
+		}
+		&:last-child{
+			span{
+				border-top-right-radius:0;
+				border-bottom-right-radius:$base-border-radius;
+				border-bottom-left-radius:$base-border-radius;
+				border-left:1px solid $color-button-border;
+				border-top:none;
+			}
+			&:hover{
+				span{
+					border-left:1px solid $color-button-active;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,208 @@
+
+/* variable */
+$col-width:980;
+$col-total-num:12;
+$col-w:($col-width/$col-total-num)/$col-width*100%;
+$gap:20;
+$i:0;
+
+.sc-row{
+	@include clr();
+	display:block;
+	width: 100%;
+	margin:0 auto;
+	&:last-child{
+		>[class*=sc-col] {
+			margin-bottom:0;
+		}
+		>[class*=sc-flex] {
+			margin-bottom:15px;
+			&:last-child{
+				margin-bottom:0;
+			}
+		}
+	}
+	@include min-screen($screen-large){
+		&:last-child{
+			>[class*=sc-col] {
+				margin-bottom:0;
+			}
+		}
+	}
+}
+
+[class*=sc-col-] {
+	float:left;
+	padding:0 0;
+	margin-bottom:15px;
+	&:last-child{
+		//margin-bottom:0;
+		@include min-screen($screen-large){
+			//margin-bottom:15px;
+		}
+	}
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*&:first-child{
+		margin-bottom:15px;
+		@include min-screen($screen-large) {
+			margi-bottom:0;
+		}
+	}*/
+}
+
+/* fixed */
+@for $i from 0 through $col-total-num {
+	.sc-row{
+		>.sc-col-#{$i+1}{
+			&:first-child{
+				margin-left:0 !important;
+			}
+/* 			padding-left:15/$col-width*100%;
+			padding-right:15/$col-width*100%; */
+			width:(($col-width/$col-total-num)*($i+1))/$col-width*100%;
+		}
+	}
+}
+
+/* flexible */
+.sc-row{
+	>[class*=sc-flex-]{
+		&:first-child{
+			margin-left:0 !important;
+		}
+		width:100%;
+	}
+}
+
+/* fixed for gap */
+@for $i from 0 through $col-total-num {
+	.sc-row-gap{
+		> .sc-col-#{$i+1}{
+			padding-left:0 !important;
+			padding-right:0 !important;
+			margin-left:($gap/($col-width))*100%;
+			width:(((($col-width)-($gap*(($col-total-num)-1)))/$col-total-num)*($i+1)+$gap*$i)/$col-width*100%;
+		}
+	}
+}
+
+/* flexible for gap */
+.sc-row{
+	.sc-row-gap{
+		>[class*=sc-flex-]{
+			margin-left:0;
+			width:100%;
+			&.sc-flex-divide{
+				margin-left:0;
+			}
+		}
+	}
+}
+
+@include min-screen($screen-medium) {
+	/* flexible */
+	 @for $i from 0 through $col-total-num {
+		.sc-row{
+			 > .sc-flex-#{$i+1}{
+				width:(($col-width/$col-total-num)*($i+1))/$col-width*100%;
+			}
+		}
+	}
+	/* flexible for gap */
+	 @for $i from 0 through $col-total-num {
+		.sc-row{
+			&.sc-row-gap{
+				> .sc-flex-#{$i+1}{
+					margin-left:($gap/($col-width))*100%;
+					width:(((($col-width)-($gap*(($col-total-num)-1)))/$col-total-num)*($i+1)+$gap*$i)/$col-width*100%;
+				}
+			}
+		}
+	}
+}
+
+@include min-screen($screen-large) {
+	/* flexible */
+	 @for $i from 0 through $col-total-num {
+		.sc-row{
+			> .sc-col-#{$i+1}{
+				&[class*=sc-flex]{
+					width:(($col-width/$col-total-num)*($i+1))/$col-width*100%;
+				}
+			}
+
+			&.sc-row-gap{
+				> .sc-col-#{$i+1}{
+					&[class*=sc-flex]{
+						margin-left:($gap/($col-width))*100%;
+						width:(((($col-width)-($gap*(($col-total-num)-1)))/$col-total-num)*($i+1)+$gap*$i)/$col-width*100%;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+/* group box */
+@for $i from 1 through $col-total-num {
+	.sc-group-#{$i}{
+		> *{
+			width:(($col-width)/$i)/$col-width*100%;
+		}
+	}
+}
+
+/* group box with gap */
+@for $i from 1 through $col-total-num {
+	.sc-group-#{$i}{
+		&.sc-group-gap{
+			> *{
+				width:((($col-width)-($gap*(($i)-1)))/$i)/$col-width*100%;
+			}
+		}
+	}
+}
+
+/* group box for automatic */
+[class*=sc-group-] {
+	@include clr();
+	width:100%;
+	margin-bottom:15px;
+	> *{
+		float:left;
+	}
+}
+.sc-group-gap{
+	> *{
+		&:first-child{
+			margin-left:0 !important
+		}
+		margin-left:($gap/($col-width))*100%;
+	}
+}
+
+@for $i from 1 through $col-total-num {
+	@for $j from 1 through ($i)-1{
+		@for $k from 1 through ($i)-1 {
+			.sc-group-#{$i}-#{$j}-#{$k}{
+				> *{
+					width:(($col-width)/$i)/$col-width*100%;
+				}
+				>:nth-child(#{$j}){
+					width:((($col-width)/$i)*$k)/($col-width)*100%;
+				}
+				&.sc-group-gap{
+					> *{
+						width:((($col-width)-($gap*(($i)-($k))))/$i)/$col-width*100%;
+					}
+					>:nth-child(#{$j}){
+						width:(((($col-width)-($gap*(($i)-($k))))/$i)*$k)/($col-width)*100%;
+					}
+				}
+			}
+		}
+	}
+}

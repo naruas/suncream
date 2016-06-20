@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+// common scss
+
+// base
+@import "../../base/variables";
+// utils
+@import "../../utils/media-queries";
+@import "../../utils/mixins";
+
+/////////////////////////////////////////////////////////////
+// sc-th.scss
+// fonts
+// @import "fonts/font-notosanskr";
+
+// base
+@import "base/base";
+// partials
+@import "partials/button";
+@import "partials/layout";
+@import "partials/image";
+
+// pages
+@import "pages/main";

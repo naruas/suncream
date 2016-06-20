@@ -1,0 +1,20 @@
+// image.scss
+
+.sc-image-background--item{
+	//min-height:400px
+}
+
+.sc-thumb-list{
+	max-width:$max-width;
+	//margin-bottom:50px;
+	.sc-image{
+		min-height:300px;/*
+		vertical-align:middle;
+		i{
+			@include font-size(50);
+			vertical-align:middle;
+			margin-top:-25px;
+			margin-left:-26px;
+		}*/
+	}
+}

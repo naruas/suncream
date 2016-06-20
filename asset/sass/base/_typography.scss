@@ -1,0 +1,69 @@
+// _typography.scss
+
+/* _typography
+--------------------------------------------*/
+h1,h2,h3,h4,h4,h6{
+	//text-align:left;
+	max-width:$max-width;
+	margin:0 auto;
+}
+
+h1{
+	border-bottom:none;
+	@include font-size(55);
+}
+h2{
+	@include font-size(35);
+}
+h3{
+	@include font-size(27);
+}
+h4{
+	@include font-size(22);
+}
+h5{
+	@include font-size(18);
+}
+h6{
+	@include font-size(15);
+}
+
+
+header{
+	padding:10px 0;
+	color:#000;
+	.sc-header-title{
+		margin-bottom:0;
+	//	padding:5px 0;
+	}
+}
+
+.sc-header-title{
+	//padding:5px 0;
+	color:#000;
+	margin-bottom:20px;
+	font-weight:500;
+}
+
+h1.sc-header-title{
+	@include font-size(55);;
+}
+h2.sc-header-title{
+	@include font-size(35);
+}
+h3.sc-header-title{
+	@include font-size(28);
+}
+h4.sc-header-title{
+	@include font-size(25);
+}
+h5.sc-header-title{
+	@include font-size(19);
+}
+h6.sc-header-title{
+	@include font-size(16);
+}
+.sc-header-describe{
+	padding:10px 0;
+	@include font-size(14);
+}

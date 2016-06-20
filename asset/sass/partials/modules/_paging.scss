@@ -1,0 +1,62 @@
+// _paging.scss
+
+.sc-paging{
+    padding:20px;
+    vertical-align:top;
+    text-align:center;
+    a{
+        display:inline-block;
+        padding:5px 12px;
+        position:relative;
+        @include font-size(12);
+        &.on{
+            color:$color-paging;
+            font-weight:bold;
+        }
+        &:hover{
+            color:$color-paging;
+        }
+        &:before{
+            content:"";
+            display:block;
+            width:1px;
+            height:10px;
+            position:absolute;
+            right:0;
+            top:50%;
+            margin-top:-5px;
+            background:#e1e1e1;
+
+        }
+        &:last-child{
+            &:before{
+                display:none;
+            }
+        } 
+    }
+
+   
+
+    
+    &.sc-paging-fill{
+        a{
+            &:before{
+                display:none;   
+            }
+            //border-radius:2px;
+
+        }
+        a[class*=btn-paging-]{
+            padding:5px 10px;
+            background:$color-paging-fill;
+            color:#fff;
+
+            &:hover{
+               background:$color-paging;
+            }
+           
+        }
+    }
+        
+
+}

@@ -1,0 +1,36 @@
+// _list
+
+$sc-list-padding:8px;
+
+.sc-list{
+
+	padding:$sc-list-padding 0;
+	background:#fff;
+	position:relative;
+
+	
+	li{
+		padding:$sc-list-padding 20px;
+		line-height:1;
+	}
+
+	a{
+		display:block;
+		//padding:8px 20px;
+		@include font-size(14);
+		
+	}
+	&.sc-list-linked{
+		li{
+			padding:0;
+			&:hover{
+				background:#f5f5f5;
+				color:#e4007f;
+			}
+		}
+		a{
+			padding:$sc-list-padding 20px;
+		}
+	}
+	
+}

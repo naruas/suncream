@@ -1,0 +1,69 @@
+// _modal
+
+.sc-modal{
+	.sc-header{
+		padding-bottom:0;
+	}
+}
+// modal contaeinr
+.sc-modal-container{
+}
+
+// real modal elements
+.sc-modal{
+	display:none;
+	width:500px;
+	position:relative;
+	//z-index:510;
+	box-shadow:1px 1px 5px #333;
+	border-radius:$base-border-radius;
+	background:#fff;
+
+
+	&.on{
+		display:block;
+	}
+	.sc-btn-close{
+		position:absolute;
+		top:15px;
+		right:15px;
+		@include font-size(21);
+		color:#9e9e9e;
+	}
+	.sc-panel{
+		padding:10px;
+		border-bottom-left-radius:$base-border-radius;
+		border-bottom-right-radius:$base-border-radius;;
+	}
+}
+
+.sc-modal-title{
+	padding:15px 20px;
+	margin:0 0 -1px 0;
+	border:1px solid #e1e1e1;
+	border-top-left-radius:$base-border-radius;
+	border-top-right-radius:$base-border-radius;
+	background:#fff;
+}
+
+
+.sc-modal-conts{
+	padding:20px;
+	border:1px solid #e1e1e1;
+	border-bottom:none;
+	line-height:25px;
+	background:#fff;
+	overflow-y:auto;
+	
+	h4,h5{
+		padding-right:0;
+		padding-left:0;
+	}
+
+	.sc-input{
+		padding:10px 0;
+	}
+
+}
+
+
