@@ -1,0 +1,6 @@
+{
+  "name": "Suncream",
+  "tagline": "The simplest css framework for developing a website.",
+  "body": "### **Suncream css framework**\r\nAuthor : Joonglim,Nam                                          \r\nDescription : The best simple css framework for developing website\r\n\r\n### How to :\r\n```\r\n1. to download guide-page as index.html.\r\n2. to send parameters into Constructor as A Class name of wrapping element , \r\n   speed and interval only 3 parameters.\r\n3. to override as adding Functions in Instance , \r\n   if you are expected to extend for another functionality.\r\n```\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
