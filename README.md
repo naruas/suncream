@@ -3,13 +3,13 @@
 The simplest css framework for developing a website.
 
 
-##Include
+### Include
 
 ```css
 <link type="text/css" rel="stylesheet" href="css/suncream.min.css" />
 ```
 
-##Quick start
+### Quick start
 
 Several quick start options are available:
 
@@ -20,7 +20,7 @@ Several quick start options are available:
 See the [Getting started page](http://hiroinaru.com/suncream/asset/) for detail information on suncream framework.
 
 
-##What's included
+### What's included
 
 directory architecture
 
@@ -36,14 +36,14 @@ asset/
     └── suncream.min.js
 ```
 
-##Creators
+### Creators
 
 **Joonglim Nam**
 
 * <http://hiroinaru.com/suncream/asset>
 
 
-##Copyright and license
+### Copyright and license
 
 ```html
 Copyright 2016 JoonglimNam. Code released under [the MIT license](https://github.com/naruas/Suncream/blob/master/LICENSE)
