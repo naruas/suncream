@@ -22,7 +22,7 @@ See the [Getting started page](http://hiroinaru.com/suncream/asset/) for detail 
 
 ### What's included
 
-directory architecture
+Directory architecture
 
 ```
 asset/
