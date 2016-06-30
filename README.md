@@ -15,8 +15,9 @@ Several quick start options are available:
 
 * [Download the latest release](https://github.com/naruas/Suncream/archive/master.zip).
 * Clone the repo: `git clone https://github.com/naruas/Suncream.git`.
+* Install with [npm](https://www.npmjs.com): readying..
 
-Read the [Getting started page](http://hiroinaru.com/suncream/asset/) for information on the framework contents, templates and examples, and more.
+See the [Getting started page](http://hiroinaru.com/suncream/asset/) for detail information on suncream framework.
 
 
 ### What's included
