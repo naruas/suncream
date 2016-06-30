@@ -1,0 +1,65 @@
+// main.scss
+
+[data-page*=main]{
+	// top
+	.sc-image-background--top{
+		.sc-image-background--list{
+		}
+		 .sc-image-background--item{
+			min-height:500px
+
+		}
+	}
+
+	.sc-thumb-list{
+		max-width:$max-width;
+		.sc-image{
+			//min-height:300px;
+			i{
+				padding:130px 0
+			}
+		}
+	}
+
+	//event
+	.sc-event{
+		max-width:initial;
+		.sc-image{
+			//min-height:300px;
+			i{
+				padding:100px 0
+			}
+		}
+		.sc-paragraph{
+			padding:0 20px;
+		}
+	}
+
+	.sc-favorite{
+		padding-top:100px;
+		padding-bottom:100px;
+		.sc-image{
+			margin-bottom:40px;
+			background:none;
+			min-height:initial;
+
+			i{
+				margin:0;
+				@include font-size(70);
+				position:static;
+				color:#009246;
+				line-height:1;
+			}
+		}
+		.sc-paragraph{
+			text-align:center;
+		}
+	}
+
+	.btn-resevation{
+		width:100%;
+		position:absolute;
+		left:0;
+		bottom:15%;
+	}
+}

@@ -1,0 +1,31 @@
+// _sns.scss
+
+.sc-sns{
+    li{
+        padding:8px 1%;
+    }
+    i{
+        text-align:center;
+        @include font-size(25);
+            color:$color-base;
+            background:none;
+            border-radius:none;
+            width:auto;
+            height:auto;
+            line-height:auto;
+    }
+    &.sc-sns-fill{
+
+        i{
+            @include font-size(17);
+            color:#fff;
+            background:$color-base;
+            border-radius:50px;
+            width:35px;
+            height:35px;
+            line-height:35px;
+        }
+    }
+}
+
+

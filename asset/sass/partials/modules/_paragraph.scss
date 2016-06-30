@@ -1,6 +1,8 @@
 // _paragraph.scss
 
 .sc-paragraph{
+	
+	word-break:break-all;
 
 	.sc-paragraph-divide{
 		margin-bottom:20px;
@@ -12,9 +14,10 @@
 		//@include font-size(16);
 		margin-bottom:10px;
 		font-weight:bold;
+		line-height:19px;
 	}
 	.sc-paragraph-describe{
-		line-height:26px;
+		line-height:24px;
 	}
 
 	.sc-image{
@@ -23,6 +26,16 @@
 	
 	.sc-input{
 		padding:10px 0;
+	}
+	.sc-paragraph-tag{
+		@include clr();
+		a{
+			float:left;
+			margin-right:10px;
+			&:last-child{
+				margin-right:0;
+			}
+		}
 	}
 	
 }

@@ -33,4 +33,20 @@ $sc-list-padding:8px;
 		}
 	}
 	
+	&.sc-list-inline{
+		@include clr();
+
+		li{
+			float:left;
+			
+			&:first-child{
+				//padding-left:0;
+				a{
+
+					//padding-left:0
+				}
+			}
+		}
+
+	}
 }

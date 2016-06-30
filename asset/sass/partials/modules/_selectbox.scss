@@ -21,6 +21,10 @@ select{
 	.sc-input{
 		float:left;
 	}
+
+	[class*=sc-col-]{
+		margin-bottom:0;
+	}
 }
 
 
@@ -43,9 +47,9 @@ select{
 	width:30px;
 	height:38px;
 	cursor:pointer;
-	border:1px solid $color-select-border;
+	//border:1px solid $color-select-border;
 	
-	background:$color-select-background;
+	//background:$color-select-background;
 	i{
 		color:#fff;
 	}
@@ -67,6 +71,8 @@ select{
 		
 		border-top-right-radius:$base-border-radius;
 		border-bottom-right-radius:$base-border-radius;
+		border-top-left-radius:0;
+		border-bottom-left-radius:0;
 		text-align:center;
 	}
 	.sc-select-click{

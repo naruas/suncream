@@ -1,26 +1,5 @@
 // _nav.scss
 
-
-
-// logo
-.sc-logo{
-	//margin:16px 0 0 15px;
-	padding:9px 17px;
-	position:relative;
-	text-align:center;
-	z-index:1;
-	@include font-size(20);
-	@include min-screen($screen-medium){
-		float:left;
-		text-align:center;
-	}
-	
-	img{
-		width:181px;
-	}
-
-}
-
 // navigation
 .sc-nav-bar{
 	position:relative;
@@ -38,8 +17,8 @@
 	border:none;
 	outline:none;
 	position:absolute;
-	right:0;
-	top:-17px;
+	right:15px;
+	top:50%;
 	margin-top:-12px;
 	cursor:pointer;
 	
@@ -66,13 +45,11 @@
 
 .sc-nav{
 	display:none;
-	//margin-top:52px;
 	width:100%;
 	text-align:left;
 	a{
 		display:block;
 	}
-	
 	
 	&.on{
 		display:block;
@@ -85,17 +62,19 @@
 		margin-top:0;
 		display:block;
 	}
+	
 }
 
 .sc-nav-list{
-	//width:100%;
 	@include clr();
+	&.sc-nav-list-block{
+		float:none;
+	}
 }
+
 .sc-nav-item{
+	
 	position:relative;
-	//margin-bottom:3px;
-	//border-radius:5px;
-	//box-sizing:border-box;
 	@include min-screen($screen-medium){
 		float:none;
 		display:table-cell;
@@ -106,7 +85,6 @@
 	}
 	&>a{
 		padding:12px 0;
-		//border:1px solid #e3e3e3;
 		border-radius:$base-border-radius;
 		text-align:center;
 	}
@@ -125,36 +103,26 @@
 			display:block;
 		}
 	}
-	
 	&.on{
 		
 		&>a{
 			color:#000;
-			//background:#D8D8D8;
 		}
-		.sc-dropdown{
-			//display:block;
-		}
+		
 	}
-	
 	.sc-dropdown{
 		display:none;
 		width:auto;
 		padding-top:2px;
-		@include transition(all,.25s,linear);
 		position:static;
+		@include transition(all,.25s,linear);
 		@include min-screen($screen-medium){
-				position:absolute;
+			position:absolute;
 		}
 	}
-	
-	@include min-screen($screen-medium){
-	//	float:left;
-	//	margin-right:5px;
-	/*	display:table-cell;
-		width:.1%;*/
-	}
+
 }
+
 
 // nav-full
 .sc-nav-fill
@@ -267,6 +235,29 @@
 			display:table-cell;
 			width:.1%;
 		
+		}
+	}
+}
+
+
+// nav vertical
+.sc-nav-vertical{
+	.sc-nav-item{
+		display:block;
+		width:100%;
+		ul{
+			border-right:none;
+			border-left:none;
+			@include min-screen($screen-medium){
+				width:100%
+			}
+		}
+
+		.sc-dropdown{
+			text-align:center;
+			@include min-screen($screen-medium){
+				position:static;
+			}
 		}
 	}
 }

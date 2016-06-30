@@ -1,0 +1,65 @@
+// -nav.scss
+
+
+
+.sc-nav-item{
+	
+	position:relative;
+	@include min-screen($screen-medium){
+		float:none;
+		display:table-cell;
+		width:.1%;
+	}
+	&:last-child{
+		margin-right:0;
+	}
+	&>a{
+		padding:15px 0;
+		border-radius:0;
+		text-align:center;
+		color:#fff;
+		opacity:.5
+	}
+	ul{
+		width:auto;
+		@include min-screen($screen-medium){
+			width:200px;
+		}
+	}
+	&:hover{
+		&>a{
+			opacity:.8;
+			border-radius:0;
+			background:none;
+			color:#fff;
+		}
+		.sc-dropdown{
+			display:block;
+		}
+	}
+	&.on{
+		
+		&>a{
+			color:#fff;
+			opacity:1;
+		}
+		
+	}
+	.sc-dropdown{
+		display:none;
+		width:auto;
+		padding-top:2px;
+		position:static;
+		@include transition(all,.25s,linear);
+		@include min-screen($screen-medium){
+			position:absolute;
+		}
+	}
+
+}
+
+.sc-nav-toggle{
+	.icon-bar{
+		background-color:#A3C8E3
+	}
+}

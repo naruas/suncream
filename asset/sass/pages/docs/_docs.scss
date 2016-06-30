@@ -34,18 +34,8 @@ $docs-base-label-bgcolor:#795da3;
 	.sc-container{
 		margin-bottom:25px;
 	}
-	.sc-box{
-		max-width:980px;
-		margin:0 auto;
-		&>.sc-row{
-			&>div{
-				//padding:20px;
-			}
-			&>article{
-				padding:20px;
-			}
-		}
-	}
+	
+	
 	
 	hr{
 		margin:30px 0;
@@ -131,13 +121,7 @@ $docs-base-label-bgcolor:#795da3;
 		
 	}
 
-	.sc-inner{
-		display:block;
-		padding:20px 0;
-		border:1px solid  #d2d2d2;
-		text-align:center;
-		background:#F1F1F1;
-	}
+
 	
 	.sc-main{
 		background:none !important;
@@ -155,7 +139,7 @@ $docs-base-label-bgcolor:#795da3;
 			margin:0 auto;
 			padding:18px 0;
 			text-align:center;
-			@include font-size(16);
+			@include font-size(16);;
 			font-weight:100;
 		}
 	}
@@ -240,17 +224,21 @@ $docs-base-label-bgcolor:#795da3;
 	/* button */
 	//#sc-elements-button{
 		[class*=sc-group]>button span{
-			outline:1px solid #fff;
+			//outline:1px solid #fff;
 		}
 //	}
 
 	/* image */
 	.sc-image{
 		padding:30px;
-		min-height:100px;
+		min-height:87px;
 		i{
 			@include font-size(30);
 		}
+	}
+
+	form{
+		padding:0;
 	}
 
 	/* demo */
@@ -298,6 +286,17 @@ $docs-base-label-bgcolor:#795da3;
 		}
 	}
 
+	.sc-image-background--item{
+		padding-left:0;
+		padding-right:0;
+	}
+
+	#sc-elements-color{
+		
+		[class*=sc-btn]{
+			border-radius:0;
+		}
+	}
 
 }
 

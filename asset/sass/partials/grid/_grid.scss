@@ -33,8 +33,13 @@ $i:0;
 
 [class*=sc-col-] {
 	float:left;
-	padding:0 0;
 	margin-bottom:15px;
+	
+/* 	padding-top:$gap+px;
+	padding-bottom:$gap+px;
+	padding-left:$gap+px;
+	padding-right:$gap+px; */
+	
 	&:last-child{
 		//margin-bottom:0;
 		@include min-screen($screen-large){
@@ -51,6 +56,20 @@ $i:0;
 		}
 	}*/
 }
+/* 
+.sc-child-no-gap{
+	float:initial;
+	margin:0;
+	padding:0;
+	>[class*=sc-col-] {
+		padding:0;
+	}
+}
+.sc-child-all-no-gap{
+	[class*=sc-col-] {
+		padding:0;
+	}
+} */
 
 /* fixed */
 @for $i from 0 through $col-total-num {
@@ -59,8 +78,10 @@ $i:0;
 			&:first-child{
 				margin-left:0 !important;
 			}
-/* 			padding-left:15/$col-width*100%;
-			padding-right:15/$col-width*100%; */
+/* 			padding-top:$gap+px;
+			padding-bottom:$gap+px;
+  			padding-left:$gap/$col-width*100%;
+			padding-right:$gap/$col-width*100%; */
 			width:(($col-width/$col-total-num)*($i+1))/$col-width*100%;
 		}
 	}
@@ -90,7 +111,7 @@ $i:0;
 
 /* flexible for gap */
 .sc-row{
-	.sc-row-gap{
+	&.sc-row-gap{
 		>[class*=sc-flex-]{
 			margin-left:0;
 			width:100%;

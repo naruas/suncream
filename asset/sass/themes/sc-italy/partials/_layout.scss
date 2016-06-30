@@ -1,0 +1,26 @@
+// layout.scss
+
+
+[class*=sc-col] {
+	//border:1px solid #eee;
+}
+
+
+#header{
+	@include min-screen($screen-medium){
+		padding-top:50px;
+		padding-bottom:30px;
+	}
+	
+}
+
+#footer{
+	//padding:50px 0;
+	background:#eee;
+	@include font-size(12);
+	>*{
+		max-width:$max-width;
+	}
+}
+
+

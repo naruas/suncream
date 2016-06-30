@@ -44,15 +44,6 @@
   margin-bottom: 25px;
 }
 
-.sc-doc .sc-box {
-  max-width: 980px;
-  margin: 0 auto;
-}
-
-.sc-doc .sc-box > .sc-row > article {
-  padding: 20px;
-}
-
 .sc-doc hr {
   margin: 30px 0;
   border: none;
@@ -128,14 +119,6 @@
   opacity: .5;
   font-style: normal;
   font-weight: normal;
-}
-
-.sc-doc .sc-inner {
-  display: block;
-  padding: 20px 0;
-  border: 1px solid  #d2d2d2;
-  text-align: center;
-  background: #F1F1F1;
 }
 
 .sc-doc .sc-main {
@@ -219,18 +202,18 @@
   box-shadow: none;
 }
 
-.sc-doc [class*=sc-group] > button span {
-  outline: 1px solid #fff;
-}
-
 .sc-doc .sc-image {
   padding: 30px;
-  min-height: 100px;
+  min-height: 87px;
 }
 
 .sc-doc .sc-image i {
   font-size: 30px;
   font-size: 3rem;
+}
+
+.sc-doc form {
+  padding: 0;
 }
 
 .sc-doc .demo [class*=sc-col-] {
@@ -271,6 +254,15 @@
   display: block;
   margin: 10px 20px 10px;
   min-height: 50px;
+}
+
+.sc-doc .sc-image-background--item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sc-doc #sc-elements-color [class*=sc-btn] {
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=docs.css.map */
