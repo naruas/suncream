@@ -31,6 +31,15 @@ asset/
 │   ├── suncream.css.map
 │   ├── suncream.min.css
 │   ├── suncream.min.css.map
+│   └──  theme/
+│       ├── sc-italy.css
+│       ├── sc-italy.css.map
+│       ├── sc-italy.min.css
+│       ├── sc-italy.min.css.map
+│       ├── sc-paris.css
+│       ├── sc-paris.css.map
+│       ├── sc-paris.min.css
+│       └── sc-paris.min.css.map
 └── js/
     ├── suncream.js
     └── suncream.min.js
