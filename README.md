@@ -52,6 +52,6 @@ asset/
 * <http://hiroinaru.com/suncream/asset>
 
 
-### Copyright and license
+### Copyright and License
 
 Copyright 2016 JoonglimNam. Code released under [the MIT license](https://github.com/naruas/Suncream/blob/master/LICENSE)
