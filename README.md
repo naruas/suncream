@@ -39,7 +39,7 @@ asset/
 
 **Joonglim Nam**
 
-* <http://hiroinaru.com/suncream>
+* <http://hiroinaru.com/suncream/asset>
 
 
 ##Copyright and license
