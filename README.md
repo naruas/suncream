@@ -54,4 +54,4 @@ asset/
 
 ### Copyright and License
 
-Copyright 2016 JoonglimNam. Code released under [the MIT license](https://github.com/naruas/Suncream/blob/master/LICENSE)
+Copyright 2016 suncream. Code released under [the MIT license](https://github.com/naruas/Suncream/blob/master/LICENSE)
