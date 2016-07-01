@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naruas/Suncream.git"
+    "url": "git+https://github.com/naruas/suncream.git"
   },
-  "author": "JoonglimNam",
+  "author": "Joonglim,Nam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/naruas/Suncream/issues"
+    "url": "https://github.com/naruas/suncream/issues"
   },
-  "homepage": "https://github.com/naruas/Suncream#readme"
+  "homepage": "https://github.com/naruas/suncream/"
 }
