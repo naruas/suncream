@@ -1,5 +1,5 @@
 {
-  "name": "suncream",
+  "name": "suncream-ui",
   "version": "1.0.0",
   "description": "The simplest css framework for developing website",
   "main": "Gruntfile.js",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "https://github.com/naruas/suncream.git"
   },
-  "author": "Joonglim,Nam",
+  "author": "JoonglimNam",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/naruas/suncream/issues"
