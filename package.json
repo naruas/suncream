@@ -1,5 +1,5 @@
 {
-  "name": "suncream",
+  "name": "suncream-ui",
   "version": "1.0.0",
   "description": "The simplest css framework for developing website",
   "main": "Gruntfile.js",
