@@ -3,7 +3,7 @@
 
 
 .sc-nav-item{
-	
+
 	position:relative;
 	@include min-screen($screen-medium){
 		float:none;
@@ -38,12 +38,12 @@
 		}
 	}
 	&.on{
-		
+
 		&>a{
 			color:#fff;
 			opacity:1;
 		}
-		
+
 	}
 	.sc-dropdown{
 		display:none;

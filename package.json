@@ -1,9 +1,10 @@
 {
-  "name": "suncream-ui",
+  "name": "suncream",
   "version": "1.0.0",
   "description": "The simplest css framework for developing website",
   "main": "Gruntfile.js",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cache-breaker": "^2.0.1",
@@ -30,3 +31,4 @@
   },
   "homepage": "https://github.com/naruas/suncream/"
 }
+.kr
