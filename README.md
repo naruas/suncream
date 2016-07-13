@@ -49,7 +49,7 @@ asset/
 
 **Joonglim Nam**
 
-* <http://hiroinaru.com/suncream/asset>
+* <https://naruas.github.io/suncream/>
 
 
 ### Copyright and License
