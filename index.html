@@ -1449,3 +1449,1424 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content="" />
+	<meta name="describe" content="" />
+	<title>Suncream</title>
+	<!-- css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/suncream/suncream.min.css" />
+	<link rel="stylesheet" href="css/suncream/docs.min.css" />
+	<link rel="stylesheet" href="css/highlight/default.css">
+</head>
+<body data-spy="scroll" data-target=".sc-lnb" data-offset="10">
+	<a href="#wrapper" class="sc-go-top"><span>TOP</span></a>
+	<div id="wrapper" class="sc-doc">
+
+		<!-- s : header -->
+		<header class="sc-header sc-header-top">
+			<h1 class="sc-header-title">suncreams</h1>
+			<p class="sc-header-describe">css framework</p>
+		</header>
+		<!-- e : header -->
+		<!-- s : contents -->
+
+			<div class="sc-row">
+		  <!-- s : left -->
+		  <div class="sc-lnb-container">
+		 	<nav class="sc-lnb ">
+					<ul class="sc-lnb-list sc-inner">
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Overview</a></p>
+							<ul>
+								<li><a href="#getting">Getting started</a></li>
+							</ul>
+						</li>
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Grid System</a></p>
+							<ul>
+								<li><a href="#sc-grid-fixed">fixed</a></li>
+								<li><a href="#sc-grid-flexible">flexible</a></li>
+								<li><a href="#sc-grid-group">group box</a></li>
+							</ul>
+						</li>
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Navigation</a></p>
+							<ul>
+								<li><a href="#nav-fill">nav-fill</a></li>
+								<li><a href="#nav-tap">nav-tap</a></li>
+							</ul>
+						</li>
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Elements</a></p>
+							<ul>
+								<li><a href="#sc-elements-color">color</a></li>
+								<li><a href="#sc-elements-button">button</a></li>
+								<li><a href="#sc-elements-input">Input</a></li>
+								<li><a href="#sc-elements-checkbox">checkbox</a></li>
+								<li><a href="#sc-elements-bullet">bullet</a></li>
+								<li><a href="#sc-elements-list">list</a></li>
+								<li><a href="#sc-elements-panel">panel</a></li>
+								<li><a href="#sc-elements-sns">sns</a></li>
+								<li><a href="#sc-elements-image">image</a></li>
+							</ul>
+						</li>
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Modules</a></p>
+							<ul>
+								<li><a href="#sc-modules-dropdown">dropdown</a></li>
+							<li><a href="#sc-modules-select">select</a></li>
+							<li><a href="#sc-modules-modal">modal</a></li>
+								<li><a href="#sc-modules-form">form</a></li>
+								<li><a href="#sc-modules-table">table</a></li>
+								<li><a href="#sc-modules-image-thumb">image-thumb</a></li>
+								<li><a href="#sc-modules-background-visual">background-visual</a></li>
+							</ul>
+						</li>
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Text</a></p>
+							<ul>
+								<li><a href="#sc-headline">headline</a></li>
+								<li><a href="#sc-paragraph">paragraph</a></li>
+							</ul>
+						</li>
+						<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Case Study</a></p>
+							<ul>
+								<li><a href="#"></a></li>
+							</ul>
+						</li>
+							<li class="sc-lnb-item">
+							<p class="sc-lnb-title"><a href="#">Theme</a></p>
+							<ul>
+								<li><a href="theme/sc-italy/" target="_blank">Italy-colorful-village</a></li>
+								<li><a href="theme/sc-paris/" target="_blank">French-cold-city</a></li>
+							</ul>
+						</li>
+					</ul>
+		 	</nav>
+		  </div>
+		  <!-- e : left -->
+		  <!-- s : right -->
+				<article class="sc-col-12 sc-flex-12 sc-main">
+			  <!-- s : getting started -->
+			  <header class="sc-header sc-inner">
+			 	<h2 class="sc-header-title">Overview</h2>
+			  </header>
+			  <section class="sc-container scrollspy" id="getting">
+			 	<header class="sc-header sc-inner">
+			 		<h5 class="sc-header-title">Getting started</h5>
+			 	</header>
+			 	<!-- github -->
+<figure class="code-box word-break">
+<pre><code class="html">&lt;link rel= "shylesheet" href="css/suncream/suncream.min.css"&gt;
+</code></pre>
+</figure>
+			  </section>
+			  <hr />
+					<!-- e : getting started -->
+			  <!-- s : Grids -->
+			  <header class="sc-header sc-inner">
+		 		<h2 class="sc-header-title">Grid</h2>
+		 	</header>
+				<section class="sc-container scrollspy" id="sc-grid-fixed">
+					<header class="sc-header sc-inner">
+							<h5 class="sc-header-title">Fixed</h5>
+						</header>
+						<div class="code-example demo  sc-inner">
+							<div class="sc-row">
+								<div class="sc-col-2"></div>
+								<div class="sc-col-2"></div>
+								<div class="sc-col-2"></div>
+								<div class="sc-col-2"></div>
+								<div class="sc-col-2"></div>
+								<div class="sc-col-2"></div>
+							</div>
+							<div class="sc-row">
+								<div class="sc-col-3"></div>
+								<div class="sc-col-9"></div>
+							</div>
+							<div class="sc-row">
+								<div class="sc-col-6"></div>
+								<div class="sc-col-6"></div>
+							</div>
+							<div class="sc-row">
+								<div class="sc-col-4"></div>
+								<div class="sc-col-4"></div>
+								<div class="sc-col-4"></div>
+							</div>
+						</div>
+						<!-- fixed Grids -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-row"&gt;
+	&lt;div class="sc-col-3"&gt;&lt;/div&gt;
+	&lt;div class="sc-col-9"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-grid-flexible">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">Flexible</h5>
+							</header>
+							<div class="code-example demo sc-inner">
+								<div class="sc-row">
+									<div class="sc-col-3 sc-flex-12"></div>
+									<div class="sc-col-9 sc-flex-12"></div>
+								</div>
+								<div class="sc-row">
+									<div class="sc-col-6 sc-flex-6"></div>
+									<div class="sc-col-6 sc-flex-6"></div>
+								</div>
+
+								<div class="sc-row">
+									<div class="sc-col-4 sc-flex-6"></div>
+									<div class="sc-col-4 sc-flex-6"></div>
+									<div class="sc-col-4 sc-flex-12"></div>
+								</div>
+							</div>
+
+<!-- flexible Grids -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-row"&gt;
+	&lt;div class="sc-col-3 sc-flex-12"&gt;&lt;/div&gt;
+	&lt;div class="sc-col-9 sc-flex-12"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">Fixed - <em>with gap</em></h5>
+							</header>
+							<div class="code-example demo sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-3"></div>
+									<div class="sc-col-9"></div>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-6"></div>
+									<div class="sc-col-6"></div>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-4"></div>
+									<div class="sc-col-4"></div>
+									<div class="sc-col-4"></div>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-3"></div>
+									<div class="sc-col-3"></div>
+									<div class="sc-col-3"></div>
+									<div class="sc-col-3"></div>
+								</div>
+							</div>
+<!-- flexible gap Grids -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-row sc-row-gap"&gt;
+	&lt;div class="sc-col-3"&gt;&lt;/div&gt;
+	&lt;div class="sc-col-9"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">Flexible - <em>with gap</em></h5>
+							</header>
+							<div class="code-example demo sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-3 sc-flex-6"></div>
+									<div class="sc-col-9 sc-flex-6"></div>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-6 sc-flex-6"></div>
+									<div class="sc-col-6 sc-flex-6"></div>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-4 sc-flex-12"></div>
+									<div class="sc-col-4 sc-flex-6 sc-flex-divide"></div>
+									<div class="sc-col-4 sc-flex-6"></div>
+								</div>
+
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-3 sc-flex-3"></div>
+									<div class="sc-col-3 sc-flex-3"></div>
+									<div class="sc-col-3 sc-flex-6"></div>
+									<div class="sc-col-3 sc-flex-6 sc-flex-divide"></div>
+								</div>
+							</div>
+
+<!-- flexible gap Grids -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-row sc-row-gap"&gt;
+	&lt;div class="sc-col-4 sc-flex-6"&gt;col-4&lt;/div&gt;
+	&lt;div class="sc-col-4 sc-flex-6"&gt;col-4&lt;/div&gt;
+	&lt;div class="sc-col-4 sc-flex-12 sc-flex-divide"&gt;col-4&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-grid-group">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">Group box</h5>
+							</header>
+							<div class="code-example demo sc-inner">
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-group-N</h6>
+								</div>
+								<ul class="sc-group-5">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<br>
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-group-N .sc-group-gap</h6>
+								</div>
+								<ul class="sc-group-5 sc-group-gap">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+
+<!-- flexible gap Grids -->
+<figure class="code-box">
+<pre><code class="html">&lt;!-- sc-group-N (1~12) --&gt;
+&lt;ul class="sc-group-5 sc-group-gap"&gt;
+	&lt;li&gt;box-1&lt;/li&gt;
+	&lt;li&gt;box-2&lt;/li&gt;
+	&lt;li&gt;box-3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">Group box for merge</h5>
+							</header>
+							<div class="code-example demo sc-inner">
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-group-N-N-N</h6>
+								</div>
+								<ul class="sc-group-9-3-2">
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+								</ul>
+								<br>
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-group-N-N-N .sc-group-gap</h6>
+								</div>
+								<ul class="sc-group-9-3-2 sc-group-gap">
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+									<li class=""></li>
+								</ul>
+								<ul class="sc-group-5-3-2 sc-group-gap">
+									<li class="sc-flex-2"></li>
+									<li class="sc-flex-10"></li>
+									<li class="sc-flex-2 sc-flex-divide"></li>
+									<li class="sc-flex-2"></li>
+								</ul>
+							</div>
+
+<!-- flexible gap Grids -->
+<figure class="code-box">
+<pre><code class="html">&lt;!-- sc-group-N-N-N sc-group-gap --&gt;
+&lt;ul class="sc-group-9-3-2 sc-group-gap"&gt;
+	...
+&lt;/ul&gt;
+</code></pre>
+</figure>
+						</section>
+						<hr />
+						<!-- e : Grids -->
+						<!-- s : navigation -->
+						<header class="sc-header sc-inner">
+							<h2 class="sc-header-title">Navigation</h2>
+						</header>
+						<section class="sc-container scrollspy" id="nav-fill">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">nav-fill</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row">
+									<div class="sc-logo sc-logo-vertical">
+										<h1><a href="#nowhere">logo</a></h1>
+										<button type="button" class="sc-nav-toggle">
+											<span class="blind">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+									<nav class="sc-nav sc-nav-fill sc-nav-wide">
+										<ul class="sc-nav-list">
+											<li class="sc-nav-item"><a href="#nowhere">menu-0</a></li>
+											<li class="sc-nav-item"><a href="#nowhere">menu-1</a></li>
+											<li class="sc-nav-item on">
+												<a href="#nowhere">menu-2</a>
+												<div class="sc-dropdown sc-dropdown-has-arrow">
+													<ul class="sc-list sc-list-linked">
+														<li><a href="#nowhere">sub-menu-0</a></li>
+														<li><a href="#nowhere">sub-menu-1</a></li>
+														<li><a href="#nowhere">sub-menu-2</a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="sc-nav-item"><a href="#nowhere">menu-3</a></li>
+											<li class="sc-nav-item"><a href="#nowhere">menu-4</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+<!-- nav -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-nav-bar"&gt;
+	&lt;nav class="sc-nav sc-nav-fill"&gt;
+	   &lt;ul class="sc-nav-list"&gt;
+		&lt;li class="sc-nav-item"&gt;&lt;a href="#nowhere"&gt;menu-0&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="sc-nav-item"&gt;&lt;a href="#nowhere"&gt;menu-1&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="sc-nav-item on"&gt;  &lt;!-- Add class="on" for activating --&gt;
+			&lt;!-- s : sub menu --&gt;
+			&lt;a href="#nowhere"&gt;menu-2&lt;/a&gt;
+			&lt;div class="sc-dropdown sc-dropdown-has-arrow"&gt;
+				&lt;ul class="sc-list sc-list-linked"&gt;
+					&lt;li&gt;&lt;a href="#nowhere"&gt;sub-menu-0&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#nowhere"&gt;sub-menu-1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#nowhere"&gt;sub-menu-2&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;!-- e : sub menu --&gt;
+		&lt;/li&gt;
+	   &lt;/ul&gt;
+	&lt;/nav&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="nav-tap">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">nav-tap</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12 sc-flex-12">
+										<div class="sc-nav-bar global-w">
+											<!-- <h1 class="sc-logo"><a href="#nowhere">logo</a></h1> -->
+											<button type="button" class="sc-nav-toggle">
+												<span class="blind">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+											<nav class="sc-nav sc-nav-tap">
+												<h2 class="blind">nav</h2>
+												<ul class="sc-nav-list">
+													<li class="sc-nav-item"><a href="#nowhere">menu-0</a></li>
+													<li class="sc-nav-item"><a href="#nowhere">menu-1</a></li>
+													<li class="sc-nav-item"><a href="#nowhere">menu-2</a></li>
+													<li class="sc-nav-item on">	<a href="#nowhere">menu-3</a></li>
+													<li class="sc-nav-item"><a href="#nowhere">menu-4</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+<!-- nav tap -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-nav-bar"&gt;
+	&lt;nav class="sc-nav sc-nav-tap"&gt;
+	   ...
+	&lt;/nav&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<hr />
+						<!-- e : navigation -->
+						<!-- s : elements -->
+						<header class="sc-header sc-inner">
+							<h2 class="sc-header-title">Elements</h2>
+						</header>
+						<section class="sc-container scrollspy" id="sc-elements-color">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">color</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<!-- <div class="sc-header">
+									<h6 class="sc-header-title">.sc-color-name</h6>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12">
+										<button type="button" class="sc-btn sc-color-gold"><span>gold</span></button>
+										<button type="button" class="sc-btn sc-color-chocolate"><span>chocolate</span></button>
+										<button type="button" class="sc-btn sc-color-rust"><span>rust</span></button>
+										<button type="button" class="sc-btn sc-color-brick"><span>brick</span></button>
+										<button type="button" class="sc-btn sc-color-worm"><span>worm</span></button>
+										<button type="button" class="sc-btn sc-color-salem"><span>salem</span></button>
+										<button type="button" class="sc-btn sc-color-denim"><span>denim</span></button>
+										<button type="button" class="sc-btn sc-color-heart"><span>heart</span></button>
+									</div>
+								</div>
+								<br><br> -->
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-color-name-pastel</h6>
+								</div>
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12 sc-col-divide">
+										<button type="button" class="sc-btn sc-color-gold-pastel"><span>gold</span></button>
+										<button type="button" class="sc-btn sc-color-chocolate-pastel"><span>chocolate</span></button>
+										<button type="button" class="sc-btn sc-color-rust-pastel"><span>rust</span></button>
+										<button type="button" class="sc-btn sc-color-brick-pastel"><span>brick</span></button>
+										<button type="button" class="sc-btn sc-color-worm-pastel"><span>worm</span></button>
+										<button type="button" class="sc-btn sc-color-salem-pastel"><span>salem</span></button>
+										<button type="button" class="sc-btn sc-color-denim-pastel"><span>denim</span></button>
+										<button type="button" class="sc-btn sc-color-heart-pastel"><span>heart</span></button>
+									</div>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;button type="button" class="sc-btn sc-color-gold-pastel"&gt;&lt;span&gt;gold&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-color-chocolate-pastel"&gt;&lt;span&gt;chocolate&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-color-rust-pastel"&gt;&lt;span&gt;rust&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-color-brick-pastel"&gt;&lt;span&gt;brick&lt;/span&gt;&lt;/button&gt;
+<!-- &lt;button type="button" class="sc-btn sc-color-worm-pastel"&gt;&lt;span&gt;worm&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-color-salem-pastel"&gt;&lt;span&gt;salem&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-color-denim-pastel"&gt;&lt;span&gt;denim&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-color-heart-pastel"&gt;&lt;span&gt;heart&lt;/span&gt;&lt;/button&gt; -->
+&lt;a href="#nowhere" class="sc-btn"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/a&gt;
+
+&lt;div class="sc-color-brick-pastel"&gt;background&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-elements-button">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">button</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12">
+										<button type="button" class="sc-btn sc-btn-xsmall"><span>xsmall</span></button>
+										<button type="button" class="sc-btn sc-btn-small"><span>small</span></button>
+										<button type="button" class="sc-btn"><span>base</span></button>
+										<button type="button" class="sc-btn sc-btn-large"><span>large</span></button>
+										<button type="button" class="sc-btn sc-btn-xlarge"><span>xlarge</span></button>
+										<button type="button" class="sc-btn sc-btn-xlarge sc-btn-nude"><span>nude</span></button>
+									</div>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;button type="button" class="sc-btn sc-btn-xsmall"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-btn-small"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-btn-large"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-btn-xlarge"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+&lt;button type="button" class="sc-btn sc-btn-nude"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+
+&lt;a href="#nowhere" class="sc-btn"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/a&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">group buttons</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-group-3 sc-inner">
+									<button type="button" class="sc-btn"><span>button</span></button>
+									<button type="button" class="sc-btn"><span>button</span></button>
+									<button type="button" class="sc-btn"><span>button</span></button>
+								</div><br>
+								<div class="sc-group-vertical">
+									<button type="button" class="sc-btn"><span>button</span></button>
+									<button type="button" class="sc-btn"><span>button</span></button>
+									<button type="button" class="sc-btn"><span>button</span></button>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-group-3 sc-group-vertical"&gt;
+	&lt;button type="button" class="sc-btn"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+	&lt;button type="button" class="sc-btn"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+	&lt;button type="button" class="sc-btn"&gt;&lt;span&gt;button&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-elements-checkbox">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">checkbox</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-group-5">
+									<span class="sc-input">
+										<input type="checkbox" name="" id="myCheck1"><label for="myCheck1">checkbox-1</label>
+									</span>
+									<span class="sc-input">
+										<input type="checkbox" name="" id="myCheck2"><label for="myCheck2">checkbox-2</label>
+									</span>
+									<span class="sc-input">
+										<input type="checkbox" name="" id="myCheck3"><label for="myCheck3">checkbox-3</label>
+									</span>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;span class="sc-input"&gt;
+	&lt;input type="checkbox" name="" id="myCheck"&gt;&lt;label for="myCheck"&gt;Click for checking&lt;/label&gt;
+&lt;/span&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-elements-bullet">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">bullet</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<span class="sc-bullet">default -  bullet</span><br><br>
+								<span class="sc-bullet sc-bullet-circle">circle - bullet</span>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;span class="sc-bullet"&gt;text&lt;/span&gt;
+&lt;span class="sc-bullet sc-bullet-circle"&gt;text&lt;/span&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-elements-input">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">input</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12">
+										<span class="sc-input"><input type="text" placeholder="text"/></span> <br><br>
+										<span class="sc-input sc-block"><input type="text" placeholder="text"/></span><br>
+										<span class="sc-input sc-block">
+											<textarea>content</textarea>
+										</span>
+									</div>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;span class="sc-input"&gt;&lt;input type="text" placeholder="text"/&gt;&lt;/span&gt;
+&lt;span class="sc-input sc-block"&gt;&lt;input type="text" placeholder="text"/&gt;&lt;/span&gt;
+</code></pre>
+</figure>
+						</section>
+												<section class="sc-container scrollspy" id="sc-elements-list">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">list</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12 sc-flex-12">
+										<ul class="sc-list sc-list-linked">
+											<li><a href="#nowhere">list-0</a></li>
+											<li><a href="#nowhere">list-1</a></li>
+											<li><a href="#nowhere">list-2</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+<!-- list -->
+<figure class="code-box">
+<pre><code class="html">&lt;ul class="sc-list"&gt;
+   &lt;li&gt;&lt;a href="#nowhere"&gt;list-0&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="#nowhere"&gt;list-1&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="#nowhere"&gt;list-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-elements-panel">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">panel</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-panel">
+									<div class="sc-paragraph">
+										<p class="sc-paragraph-title">This is a panel wraping something.</p>
+										<p class="sc-paragraph-describe">Yesterday all my troubles seemed so far away. Now it looks as though they're here to stay.</p>
+									</div>
+								</div>
+								<br>
+								<div class="sc-panel sc-color-gold-light">
+									sc-color-<b>gold</b>-light
+								</div>
+								<br>
+								<div class="sc-panel sc-color-chocolate-light">
+									sc-color-<b>chocolate</b>-light
+								</div>
+								<br>
+								<div class="sc-panel sc-color-worm-light">
+									sc-color-<b>worm</b>-light
+								</div>
+								<br>
+								<div class="sc-panel sc-color-denim-light">
+									sc-color-<b>denim</b>-light
+								</div>
+								<br>
+								<div class="sc-panel sc-color-heart-light">
+									sc-color-<b>heart</b>-light
+								</div>
+							</div>
+<!-- list -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-panel sc-color-name-light"&gt;
+	...
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-elements-sns">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">SNS</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-sns sc-sns-fill">
+									<ul class="sc-list sc-list-inline">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+										<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+										<li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+									</ul>
+								</div>
+							</div>
+<!-- list -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-sns sc-sns-fill"&gt;
+	&lt;ul class="sc-list sc-list-inline"&gt;
+		&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-pinterest"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-youtube-play"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-tumblr"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-vimeo-square"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container" id="sc-elements-image">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">image</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div  class="sc-row sc-row-gap">
+									<div class="sc-col-4 sc-flex-6">
+										<h6 class="sc-header-title">.sc-image</h6>
+										<div class="sc-image"><i class="fa fa-picture-o"></i></div>
+									</div>
+									<div class="sc-col-4 sc-flex-6">
+										<h6 class="sc-header-title">.sc-image .sc-image-round</h6>
+										<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+									</div>
+									<div class="sc-col-4 sc-flex-6">
+										<h6 class="sc-header-title">.sc-image .sc-image-outline</h6>
+										<div class="sc-image sc-image-outline"><i class="fa fa-picture-o"></i></div>
+									</div>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-image"&gt;&lt;img src="" alt=""/&gt;&lt;/div&gt;
+&lt;div class="sc-image sc-image-corner"&gt;&lt;img src="" alt=""/&gt;&lt;/div&gt;
+&lt;div class="sc-image sc-image-round"&gt;&lt;img src="" alt=""/&gt;&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<hr>
+						<!-- e : elements -->
+						<!-- s : modules -->
+						<header class="sc-header sc-inner">
+							<h2 class="sc-header-title">Modules</h2>
+						</header>
+						<section class="sc-container scrollspy" id="sc-modules-dropdown">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">dropdown</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12 sc-flex-12">
+										<div class="sc-dropdown">
+											<button type="button" class="sc-btn sc-dropdown-click"><span>dropdown</span></button>
+											<ul class="sc-list sc-list-linked sc-panel">
+												<li><a href="#nowhere">dropdown - 1</a></li>
+												<li><a href="#nowhere">dropdown - 2</a></li>
+												<li><a href="#nowhere">dropdown - 3</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+<!-- dropdown -->
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-dropdown"&gt;
+	&lt;button type="button" class="sc-btn sc-dropdown-click"&gt;&lt;span&gt;dropdown&lt;/span&gt;&lt;/button&gt;
+	&lt;ul class="sc-list sc-panel"&gt;  &lt;!-- Add class="on" for activating --&gt;
+		&lt;li&gt;&lt;a href="#nowhere"&gt;sub-menu-0&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#nowhere"&gt;sub-menu-1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#nowhere"&gt;sub-menu-2&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-modules-select">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">select box</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-select sc-select-round">
+									<span class="sc-select-click">
+										<span class="sc-input"><input type="text" placeholder="select list" class="" /></span>
+										<button class="sc-btn sc-select-arrow"><i class="fa fa-caret-down"></i></button>
+									</span>
+									<ul class="sc-list sc-list-linked sc-panel">
+										<li><a href="#nowhere">select-list - 1</a></li>
+										<li><a href="#nowhere">select-list - 2</a></li>
+										<li><a href="#nowhere">select-list - 3</a></li>
+									</ul>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-select sc-select-round"&gt;
+	&lt;span class="sc-select-click"&gt;
+		&lt;span class="sc-input"&gt;&lt;input type="text" placeholder="select list" class="" /&gt;&lt;/span&gt;
+		&lt;button class="sc-btn sc-select-arrow"&gt;&lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;&lt;/button&gt;
+	&lt;/span&gt;
+	&lt;ul class="sc-list sc-list-linked sc-panel"&gt;
+		&lt;li&gt;&lt;a href="#nowhere"&gt;select-list - 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#nowhere"&gt;select-list - 2&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#nowhere"&gt;select-list - 3&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">select for native ui</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12 sc-flex-12">
+										<div class="sc-input sc-block">
+										<div class="sc-select-native">
+											<label for="selId" class="sc-select-label">select list</label>
+											<select id="selId" class="sc-select-list" title="" name="">
+												<option value="select-list">select-list</option>
+											<option value="1">select-1</option>
+											<option value="2">select-2</option>
+											<option value="3">select-3</option>
+											<option value="4">select-4</option>
+											<option value="5">select-5</option>
+											</select>
+											<span class="sc-btn sc-select-arrow"><i class="fa fa-caret-down"></i></span>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-select-native"&gt;
+	&lt;label for="selId" class="sc-select-label"&gt;select list&lt;/label&gt;
+	&lt;select id="selId" class="sc-select-list" title="" name=""&gt;
+		&lt;option value="select-list"&gt;select-list&lt;/option&gt;
+	&lt;option value="1"&gt;select-1&lt;/option&gt;
+	&lt;option value="2"&gt;select-2&lt;/option&gt;
+	&lt;option value="3"&gt;select-3&lt;/option&gt;
+	&lt;option value="4"&gt;select-4&lt;/option&gt;
+	&lt;option value="5"&gt;select-5&lt;/option&gt;
+	&lt;/select&gt;
+	&lt;button class="sc-btn sc-select-down"&gt;&lt;i class="fa fa-arrow-down"&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-modules-modal">
+							<header class="sc-header sc-inner">
+								<h3 class="sc-header-title">modal</h3>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-row sc-row-gap">
+									<div class="sc-col-12 sc-flex-12">
+										<div class="sc-modal-container">
+											<button type="button" class="sc-btn sc-modal-click"><span>modal</span></button>
+											<div class="sc-modal on">
+												<h4 class="sc-modal-title">title</h4>
+												<div class="sc-modal-conts">
+													<div class="sc-paragraph">
+														<p class="sc-paragraph-title">This is a modal content area.</p>
+														<p class="sc-paragraph-describe sc-paragraph-divide">You can see a srollbar when the content's height is higher than what you give fixed height.</p>
+													</div>
+													<div class="sc-input sc-block"><input type="text" placeholder="text"></div>
+													<ul class="sc-list">
+														<li>list item </li>
+														<li>list item </li>
+														<li>list item </li>
+														<li>list item </li>
+														<li>list item </li>
+													</ul>
+												</div>
+												<button type="button" class="sc-btn sc-btn-close"><i class="fa fa-times"></i></button>
+												<div class="sc-panel sc-align-center">
+													<button type=button class="sc-btn sc-btn-nude"><span>Cancel</span></button>
+													<button type=button class="sc-btn"><span>Confirm</span></button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;button type="button" class="sc-btn sc-modal-click">&lt;span>modal&lt;/span>&lt;/button&gt;
+&lt;div class="sc-modal"&gt;
+	&lt;h5 class="sc-modal-title"&gt;title&lt;/h5&gt;
+	&lt;div class="sc-modal-conts"&gt;
+		contents..
+	&lt;/div&gt;
+	&lt;button type="button" class="sc-btn sc-btn-close"&gt;X&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container" id="sc-modules-form">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title scrollspy">form</h5>
+							</header>
+							<div class="code-example sc-inner">
+										<form class="sc-form">
+											<div class="sc-row">
+												<label class="sc-col-2 sc-flex-12">name</label>
+												<span class="sc-col-10 sc-flex-12">
+													<span class="sc-input"><input type="text" placeholder="name"/></span>
+												</span>
+											</div>
+											<div class="sc-row">
+												<label class="sc-col-2 sc-flex-12">password</label>
+												<span class="sc-col-10 sc-flex-12">
+													<span class="sc-input"><input type="password" placeholder="password"/></span>
+												</span>
+											</div>
+											<div class="sc-row">
+												<label class="sc-col-2 sc-flex-12">telephone</label>
+												<span class="sc-col-10 sc-flex-12">
+													<span class="sc-row">
+														<span class="sc-input">
+															<span class="sc-select-native">
+																<label for="selId" class="sc-select-label">010</label>
+																<select id="selId" class="sc-select-list" title="" name="">
+																	<option value="select-list">011</option>
+																<option value="1">012</option>
+																<option value="2">013</option>
+																</select>
+																<span class="sc-select-arrow"><i class="fa fa-caret-down"></i></span>
+															</span>
+														</span>
+														<span class="sc-input"><input type="number" placeholder="number"/></span>
+														<span class="sc-input"><input type="number" placeholder="number"/></span>
+														<span class="sc-input"><button type="button" class="sc-btn sc-btn-xsmall"><span>Security Code</span></button></span>
+													</span>
+													<span class="sc-row">
+														<span class="sc-input"><input type="text" placeholder="Security Code"/></span>
+														<span class="sc-input"><button type="button" class="sc-btn sc-btn-xsmall"><span>Confirm</span></button></span>
+													</span>
+												</span>
+											</div>
+											<div class="sc-row">
+												<label class="sc-col-2 sc-flex-12">email</label>
+												<span class="sc-col-10 sc-flex-12">
+													<span class="sc-input-group--email">
+														<span class="sc-input"><input type="text" placeholder="email"/></span>
+														<span class="sc-input sc-input-email-mark">@</span>
+														<span class="sc-input">
+															<span class="sc-select-native">
+																<label for="selId" class="sc-select-label">select list</label>
+																<select id="selId" class="sc-select-list" title="" name="">
+																	<option value="select-list">suncream.co.kr</option>
+																<option value="1">suncream.co.kr</option>
+																<option value="2">suncream.co.kr</option>
+																</select>
+																<span class="sc-select-arrow"><i class="fa fa-caret-down"></i></span>
+															</span>
+														</span>
+													</span>
+												</span>
+											</div>
+											<div class="sc-row">
+												<label class="sc-col-2 sc-flex-12">address</label>
+												<span class="sc-col-10 sc-flex-12">
+													<span class="sc-input-group sc-input-group--address">
+														<span class="sc-input"><input type="text" placeholder="address-1"/></span>
+														<span class="sc-input"><button type="button" class="sc-btn sc-btn-xsmall"><span>Search</span></button></span>
+													</span>
+													<span class="sc-input sc-block"><input type="text" placeholder="address-2"/></span>
+												</span>
+											</div>
+										</form>
+
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;form class="sc-form"&gt;
+	&lt;div class="sc-row"&gt;
+		&lt;label class="sc-col-2 sc-flex-12"&gt;name&lt;/label&gt;
+		&lt;span class="sc-col-10 sc-flex-12"&gt;
+			&lt;span class="sc-input"&gt;&lt;input type="text" placeholder="name"/&gt;&lt;/span&gt;
+		&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/form&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container" id="sc-modules-table">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">table</h5>
+								<p class="sc-header-describe">.sc-table , .sc-table-crossed , .sc-table-colour , .sc-table-drilled</p>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-table</h6>
+								</div>
+								<table class="sc-table">
+									<thead>
+										<tr>
+											<th>num</th>
+											<th>title</th>
+											<th class="sc-hide">date</th>
+											<th class="sc-hide">name</th>
+											<th class="sc-hide">count</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5</td>
+											<td class="sc-align-left">this is table template supporting responsive table</td>
+											<td class="sc-hide">30.05.2016</td>
+											<td class="sc-hide">writer</td>
+											<td class="sc-hide">50</td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td class="sc-align-left">this is table template</td>
+											<td class="sc-hide">30.05.2016</td>
+											<td class="sc-hide">writer</td>
+											<td class="sc-hide">50</td>
+										</tr>
+									</tbody>
+								</table>
+								<br><br><br><br>
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-table .sc-table-crossed</h6>
+								</div>
+								<table class="sc-table sc-table-crossed">
+									<thead>
+										<tr>
+											<th>num</th>
+											<th>title</th>
+											<th class="sc-hide">date</th>
+											<th class="sc-hide">name</th>
+											<th class="sc-hide">count</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5</td>
+											<td class="sc-align-left">this is table template supporting responsive table</td>
+											<td class="sc-hide">30.05.2016</td>
+											<td class="sc-hide">writer</td>
+											<td class="sc-hide">50</td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td class="sc-align-left">this is table template</td>
+											<td class="sc-hide">30.05.2016</td>
+											<td class="sc-hide">writer</td>
+											<td class="sc-hide">50</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="sc-paging">
+									<a href="#" class="btn-paging-double-left"><i class="fa fa-angle-double-left"></i></a>
+									<a href="#" class="btn-paging-left"><i class="fa fa-angle-left"></i></a>
+									<a href="#">1</a>
+									<a href="#">2</a>
+									<a href="#" class="on">3</a>
+									<a href="#">4</a>
+									<a href="#">5</a>
+									<a href="#">6</a>
+									<a href="#">7</a>
+									<a href="#" class="btn-paging-right"><i class="fa fa-angle-right"></i></a>
+									<a href="#" class="btn-paging-double-right"><i class="fa fa-angle-double-right"></i></a>
+								</div>
+								<br><br><br><br>
+								<div class="sc-header">
+									<h6 class="sc-header-title">sc-table .sc-table-colour .sc-table-drilled</h6>
+								</div>
+								<table class="sc-table sc-table-colour sc-table-drilled">
+									<thead>
+										<tr>
+											<th>num</th>
+											<th>title</th>
+											<th class="sc-hide">date</th>
+											<th class="sc-hide">name</th>
+											<th class="sc-hide">count</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5</td>
+											<td class="sc-align-left">this is table template supporting responsive table</td>
+											<td class="sc-hide">30.05.2016</td>
+											<td class="sc-hide">writer</td>
+											<td class="sc-hide">50</td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td class="sc-align-left">this is table template</td>
+											<td class="sc-hide">30.05.2016</td>
+											<td class="sc-hide">writer</td>
+											<td class="sc-hide">50</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;table class="sc-table"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;num&lt;/th&gt;
+			&lt;th&gt;title&lt;/th&gt;
+			&lt;th class="sc-hide"&gt;date&lt;/th&gt;
+			&lt;th class="sc-hide"&gt;name&lt;/th&gt;
+			&lt;th class="sc-hide"&gt;count&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;5&lt;/td&gt;
+			&lt;td class="sc-align-left"&gt;this is table template&lt;/td&gt;
+			&lt;td class="sc-hide"&gt;30.05.2016&lt;/td&gt;
+			&lt;td class="sc-hide"&gt;writer&lt;/td&gt;
+			&lt;td class="sc-hide"&gt;50&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container" id="sc-modules-table">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">paging</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-paging</h6>
+								</div>
+								<div class="sc-paging">
+									<a href="#" class="btn-paging-double-left"><i class="fa fa-angle-double-left"></i></a>
+									<a href="#" class="btn-paging-left"><i class="fa fa-angle-left"></i></a>
+									<a href="#">1</a>
+									<a href="#">2</a>
+									<a href="#" class="on">3</a>
+									<a href="#">4</a>
+									<a href="#">5</a>
+									<a href="#">6</a>
+									<a href="#">7</a>
+									<a href="#" class="btn-paging-right"><i class="fa fa-angle-right"></i></a>
+									<a href="#" class="btn-paging-double-right"><i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-paging"&gt;
+	&lt;a href="#" class="btn-paging-double-left"&gt;&lt;i class="fa fa-angle-double-left"&gt;&lt;/i&gt;&lt;/a&gt;
+	&lt;a href="#" class="btn-paging-left"&gt;&lt;i class="fa fa-angle-left"&gt;&lt;/i&gt;&lt;/a&gt;
+	&lt;a href="#"&gt;1&lt;/a&gt;
+	&lt;a href="#" class="on"&gt;2&lt;/a&gt;
+	&lt;a href="#"&gt;3&lt;/a&gt;
+	&lt;a href="#" class="btn-paging-right"&gt;&lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt;
+	&lt;a href="#" class="btn-paging-double-right"&gt;&lt;i class="fa fa-angle-double-right"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-modules-image-thumb">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">image-thumb</h5>
+							</header>
+<!--							<div class="sc-paragraph sc-inner">
+								<h5 class="sc-paragraph-title">thumb-list</h5>
+							</div> -->
+							<div class="code-example sc-inner">
+								<div class="sc-header">
+									<h6 class="sc-header-title">.sc-thumb-list</h6>
+								</div>
+								<ul class="sc-row sc-row-gap sc-thumb-list">
+									<li class="sc-col-3 sc-flex-6">
+										<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+										<div class="sc-paragraph">
+											<p class="sc-paragraph-title">this is a description</p>
+											<p class="sc-paragraph-tag"><a href="#nowhere">#tag</a> <a href="#">#tag</a></p>
+										</div>
+									</li>
+									<li class="sc-col-3 sc-flex-6">
+										<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+										<div class="sc-paragraph">
+											<p class="sc-paragraph-title">this is a description</p>
+											<p class="sc-paragraph-tag"><a href="#nowhere">#tag</a> <a href="#">#tag</a></p>
+										</div>
+									</li>
+									<li class="sc-col-3 sc-flex-6 sc-flex-divide">
+										<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+										<div class="sc-paragraph">
+											<p class="sc-paragraph-title">this is a description</p>
+											<p class="sc-paragraph-tag"><a href="#nowhere">#tag</a> <a href="#">#tag</a></p>
+										</div>
+									</li>
+									<li class="sc-col-3 sc-flex-6">
+										<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+										<div class="sc-paragraph">
+											<p class="sc-paragraph-title">this is a description</p>
+											<p class="sc-paragraph-tag"><a href="#nowhere">#tag</a> <a href="#">#tag</a></p>
+										</div>
+									</li>
+								</ul>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;ul class="sc-row sc-row-gap sc-thumb-list"&gt;
+	&lt;li class="sc-col-3 sc-flex-6"&gt;
+		&lt;div class="sc-image"&gt;&lt;img src="" alt=""/&gt;&lt;/div&gt;
+		&lt;div class="sc-paragraph"&gt;
+			&lt;p class="sc-paragraph-title"&gt;title&lt;/p&gt;
+			&lt;p&gt;date&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class="sc-col-3 sc-flex-6"&gt;...&lt;/li&gt;
+	&lt;li class="sc-col-3 sc-flex-6"&gt;...&lt;/li&gt;
+	&lt;li class="sc-col-3 sc-flex-6"&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+</figure>
+						<div class="code-example sc-inner">
+							<div class="sc-header">
+								<h6 class="sc-header-title">.sc-thumb-list .sc-thumb-list-horizontal</h6>
+							</div>
+							<ul class="sc-row sc-row-gap sc-thumb-list sc-thumb-list-horizontal">
+								<li class="sc-col-6 sc-flex-6">
+									<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+									<div class="sc-paragraph">
+										<p class="sc-paragraph-title">this is a description sc-thumb-list-horizontal</p>
+										<p class="sc-paragraph-tag"><a href="#nowhere">#tag</a> <a href="#">#tag</a></p>
+									</div>
+								</li>
+								<li class="sc-col-6 sc-flex-6">
+									<div class="sc-image sc-image-round"><i class="fa fa-picture-o"></i></div>
+									<div class="sc-paragraph">
+										<p class="sc-paragraph-title">this is a description</p>
+										<p class="sc-paragraph-tag"><a href="#nowhere">#tag</a> <a href="#">#tag</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+<figure class="code-box">
+<pre><code class="html">&lt;ul class="sc-row sc-row-gap sc-thumb-list sc-thumb-list-horizontal"&gt;
+	&lt;li class="sc-col-3 sc-flex-6"&gt;
+		&lt;div class="sc-image"&gt;&lt;img src="" alt=""/&gt;&lt;/div&gt;
+		&lt;div class="sc-paragraph"&gt;
+			&lt;p class="sc-paragraph-title"&gt;title&lt;/p&gt;
+			&lt;p&gt;date&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class="sc-col-3 sc-flex-6"&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container" id="sc-modules-background-visual">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">Background visual</h5>
+							</header>
+							<div class="code-example">
+								<div class="sc-header sc-inner">
+									<h6 class="sc-header-title">.sc-image-background</h6>
+								</div>
+								<div class="sc-image-background">
+									<div class="sc-image-background--list sc-color-gold">
+										<div class="sc-image-background--item">
+											<div class="sc-paragraph">
+												<h2 class="sc-paragraph-title">sc-color-gold</h2>
+												<p>You can have another colours by adding ClassName</p>
+											</div>
+										</div>
+									</div>
+									<br><br>
+									<div class="sc-image-background--list  sc-color-chocolate">
+										<div class="sc-image-background--item sc-align-center">
+											<div class="sc-paragraph">
+												<h2 class="sc-paragraph-title">sc-color-chocolate</h2>
+												<p>You can have another colours by adding ClassName</p>
+											</div>
+										</div>
+									</div>
+									<br><br>
+									<div class="sc-image-background--list sc-color-brick">
+										<div class="sc-image-background--item sc-align-right">
+											<div class="sc-paragraph">
+												<h2 class="sc-paragraph-title">sc-color-brick</h2>
+												<p>You can have another colours by adding ClassName</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-image-background"&gt;
+	&lt;div class="sc-image-background--list sc-color-gold"&gt;
+		&lt;div class="sc-image-background--item"&gt;
+			&lt;div class="sc-paragraph"&gt;
+				&lt;h2 class="sc-paragraph-title"&gt;
+					sc-paragraph-title
+				&lt;/h2&gt;
+				&lt;p class="sc-paragraph-describe"&gt;
+					sc-paragraph-describe
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<hr />
+
+						<header class="sc-header sc-inner">
+							<h2 class="sc-header-title">TEXT</h2>
+						</header>
+						<section class="sc-container scrollspy" id="sc-paragraph">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">headline</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<header class="sc-header sc-inner">
+									<h1 class="sc-header-title">Untitle</h1>
+									<h2 class="sc-header-title">Untitle</h2>
+									<h3 class="sc-header-title">Untitle</h3>
+									<h4 class="sc-header-title">Untitle</h4>
+									<h5 class="sc-header-title">Untitle</h5>
+									<h6 class="sc-header-title">Untitle</h6>
+									<p class="sc-header-describe">Untitle Untitle Untitle Untitle Untitle Untitle Untitle Untitle Untitle Untitle </p>
+								</header>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-header"&gt;
+	&lt;h2 class="sc-header-title"&gt;...&lt;/h2&gt;
+	&lt;p class="sc-header-describe"&gt;...&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+						<section class="sc-container scrollspy" id="sc-paragraph">
+							<header class="sc-header sc-inner">
+								<h5 class="sc-header-title">paragraph</h5>
+							</header>
+							<div class="code-example sc-inner">
+								<div class="sc-paragraph">
+									<h2 class="sc-paragraph-title">Untitle</h2>
+									<h4 class="sc-paragraph-title">Untitle</h4>
+									<p class="sc-paragraph-describe sc-paragraph-divide">
+									Yesterday all my troubles
+									seemed so far away.
+									Now it looks
+									as though they're here to stay.
+									Oh, I believe in yesterday.
+									Suddenly I'm not half
+									the man I used to be.
+									There's a shadow hanging over me.
+									Oh, yesterday came suddenly.</p>
+									<p class="sc-paragraph-describe sc-paragraph-divide">
+									Why she had to go,
+									I don't know,
+									she wouldn't say.
+									I said something wrong,
+									now I long for yesterday.
+									Yesterday love was
+									such an easy game to play.
+									Now I need a place to hide away.
+									Oh, I believe in yesterday.</p>
+									<p class="sc-paragraph-describe sc-paragraph-divide">
+									Why she had to go,
+									I don't know,
+									she wouldn't say.
+									I said something wrong,
+									now I long for yesterday.
+									Yesterday love was
+									such an easy game to play.
+									Now I need a place to hide away.
+									Oh, I believe in yesterday.</p>
+
+								</div>
+							</div>
+<figure class="code-box">
+<pre><code class="html">&lt;div class="sc-paragraph"&gt;
+	&lt;h2 class="sc-paragraph-title"&gt;...&lt;/h2&gt;
+	&lt;p class="sc-paragraph-describe"&gt;
+		...
+	&lt;/p&gt;
+	&lt;p class="sc-paragraph-describe sc-paragraph-divide"&gt;
+		...
+	&lt;/p&gt;
+	&lt;p class="sc-paragraph-describe sc-paragraph-divide"&gt;
+		...
+	&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+</figure>
+						</section>
+					</article>
+					<!-- e : right -->
+			</div>
+		<!-- e : contents -->
+		<!-- s : footer -->
+		<footer class="sc-footer">
+	  <div class="sc-footer-copy">Copyright(c) 2016 Suncream. All Rights Reserved</div>
+		</footer>
+		<!-- e : footer -->
+	</div>
+
+	<!-- script -->
+	<script src="js/libs/jquery-lasted.min.js"></script>
+	<script src="js/libs/TweenMax.min.js"></script>
+	<script src="js/suncream.js"></script>
+	<script src="js/highlight/highlight.js"></script>
+	<script>
+		hljs.initHighlightingOnLoad();
+	</script>
+
+</body>
+</html>
