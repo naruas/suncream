@@ -96,7 +96,7 @@
 
 .sc-doc .sc-lnb-item {
   float: left;
-  width: 12.5%;
+  width: 14.2857142857%;
 }
 
 .sc-doc .sc-lnb-item a {
@@ -263,6 +263,10 @@
 
 .sc-doc #sc-elements-color [class*=sc-btn] {
   border-radius: 0;
+}
+
+.sc-doc .sc-nav-vertical {
+  width: 25%;
 }
 
 /*# sourceMappingURL=docs.css.map */
