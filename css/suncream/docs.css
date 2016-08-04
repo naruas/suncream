@@ -1,0 +1,272 @@
+@CHARSET "UTF-8";
+/* mixim
+---------------------------------------------------------------------------------------*/
+/* screen */
+/* font */
+@CHARSET "UTF-8";
+/* variables */
+/* doc */
+.sc-doc {
+  /* common */
+  /* contents */
+  /* lnb */
+  /* header */
+  /* dropdown */
+  /* code */
+  /* dropdown */
+  /* selectbox */
+  /* modal */
+  /* button */
+  /* image */
+  /* demo */
+}
+
+.sc-doc .sc-header-top {
+  float: none;
+  text-align: center;
+}
+
+.sc-doc .sc-header-top h1 {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  font-size: 4rem;
+  color: #BF4216;
+}
+
+.sc-doc .sc-header-top .sc-header-describe {
+  color: #EE9223;
+}
+
+.sc-doc .sc-container {
+  margin-bottom: 25px;
+}
+
+.sc-doc hr {
+  margin: 30px 0;
+  border: none;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.sc-doc .sc-col {
+  float: left;
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #666;
+}
+
+.sc-doc .sc-fixed, .sc-doc .sc-flex, .sc-doc .sc-gap {
+  max-width: 980px;
+}
+
+.sc-doc .sc-fixed h2, .sc-doc .sc-flex h2, .sc-doc .sc-gap h2 {
+  text-align: left;
+}
+
+.sc-doc .sc-lnb {
+  margin-bottom: 20px;
+  background: #B55514 !important;
+  text-align: left;
+}
+
+.sc-doc .sc-lnb-title {
+  margin-bottom: 5px;
+}
+
+.sc-doc .sc-lnb-title a {
+  color: #FFF5DE;
+  font-weight: 700;
+}
+
+.sc-doc .sc-lnb-list {
+  padding: 50px 0;
+}
+
+.sc-doc .sc-lnb-list:after {
+  content: ".";
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.sc-doc .sc-lnb-item {
+  float: left;
+  width: 14.2857142857%;
+}
+
+.sc-doc .sc-lnb-item a {
+  color: #FFF5DE;
+}
+
+.sc-doc .sc-lnb-item ul {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.sc-doc .sc-lnb-item ul li {
+  padding: 3px 0;
+  letter-spacing: 0;
+}
+
+.sc-doc .sc-lnb-item ul li em {
+  text-decoration: line-through;
+  color: #fff;
+  opacity: .5;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sc-doc .sc-main {
+  background: none !important;
+  border-left: 1px solid #efefef;
+  margin-left: -1px;
+}
+
+.sc-doc .sc-footer {
+  border-top: 1px solid #efefef;
+  background: none !important;
+}
+
+.sc-doc .sc-footer-copy {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.sc-doc code {
+  font-family: Consolas,Courier,monospace;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  color: #333;
+}
+
+.sc-doc .code-box, .sc-doc .hljs, .sc-doc pre {
+  background: #FFF3EA !important;
+}
+
+.sc-doc .code-box {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 30px 20px !important;
+  overflow-x: auto;
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.sc-doc .hljs {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.sc-doc .code-example {
+  padding: 20px 0;
+}
+
+.sc-doc .code-example:after {
+  content: ".";
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.sc-doc .code-example .sc-row:last-child {
+  margin-bottom: 0;
+}
+
+.sc-doc #sc-modules-dropdown .sc-dropdown {
+  position: static;
+  width: auto;
+}
+
+.sc-doc #sc-modules-dropdown .sc-dropdown ul {
+  position: static;
+}
+
+.sc-doc #sc-modules-selectbox .sc-selectbox ul {
+  position: static;
+}
+
+.sc-doc #sc-modules-modal .sc-modal {
+  box-shadow: none;
+}
+
+.sc-doc .sc-image {
+  padding: 30px;
+  min-height: 87px;
+}
+
+.sc-doc .sc-image i {
+  font-size: 30px;
+  font-size: 3rem;
+}
+
+.sc-doc form {
+  padding: 0;
+}
+
+.sc-doc .demo [class*=sc-col-] {
+  background: #EFC0A1;
+  text-align: center;
+}
+
+.sc-doc .demo [class*=sc-col-]:nth-child(2n) {
+  background: #FFD9B6;
+}
+
+.sc-doc .demo [class*=sc-col-]::after {
+  content: attr(class);
+  margin: 20px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: block;
+  line-height: 16px;
+  text-align: left;
+}
+
+.sc-doc .demo [class*=sc-group-] > * {
+  background: #EFC0A1;
+  text-align: center;
+}
+
+.sc-doc .demo [class*=sc-group-] > *:nth-child(2n) {
+  background: #FFD9B6;
+}
+
+.sc-doc .demo [class*=sc-group-] > *::before {
+  content: "box";
+  font-weight: 700;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-align: left;
+  display: block;
+  margin: 10px 20px 10px;
+  min-height: 50px;
+}
+
+.sc-doc .sc-image-background--item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sc-doc #sc-elements-color [class*=sc-btn] {
+  border-radius: 0;
+}
+
+.sc-doc .sc-nav-vertical {
+  width: 25%;
+}
+
+/*# sourceMappingURL=docs.css.map */
