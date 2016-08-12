@@ -177,7 +177,6 @@ body {
 @media screen and (min-width: 768px) {
   .sc-nav-item {
     float: none;
-    display: table-cell;
   }
 }
 

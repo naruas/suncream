@@ -4,14 +4,35 @@
 /* screen */
 /* font */
 @CHARSET "UTF-8";
+/* doc */
+.sc-doc {
+  /* clipboard */
+}
+
+.sc-doc .sc-clipboard {
+  position: relative;
+}
+
+.sc-doc .sc-clipboard-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+@CHARSET "UTF-8";
 /* variables */
 /* doc */
 .sc-doc {
   /* common */
   /* contents */
-  /* lnb */
+  /* nav */
   /* header */
-  /* dropdown */
+  /* gnb */
   /* code */
   /* dropdown */
   /* selectbox */
@@ -22,8 +43,12 @@
 }
 
 .sc-doc .sc-header-top {
+  width: 100%;
   float: none;
   text-align: center;
+  background: #fff;
+  position: fixed;
+  z-index: 498;
 }
 
 .sc-doc .sc-header-top h1 {
@@ -36,8 +61,12 @@
   color: #BF4216;
 }
 
+.sc-doc .sc-header-top h1 a {
+  color: #BF4216;
+}
+
 .sc-doc .sc-header-top .sc-header-describe {
-  color: #EE9223;
+  color: #929292;
 }
 
 .sc-doc .sc-container {
@@ -48,6 +77,10 @@
   margin: 30px 0;
   border: none;
   border-bottom: 1px dashed #c7c7c7;
+}
+
+.sc-doc > .sc-row {
+  padding-top: 170px;
 }
 
 .sc-doc .sc-col {
@@ -64,61 +97,6 @@
 
 .sc-doc .sc-fixed h2, .sc-doc .sc-flex h2, .sc-doc .sc-gap h2 {
   text-align: left;
-}
-
-.sc-doc .sc-lnb {
-  margin-bottom: 20px;
-  background: #B55514 !important;
-  text-align: left;
-}
-
-.sc-doc .sc-lnb-title {
-  margin-bottom: 5px;
-}
-
-.sc-doc .sc-lnb-title a {
-  color: #FFF5DE;
-  font-weight: 700;
-}
-
-.sc-doc .sc-lnb-list {
-  padding: 50px 0;
-}
-
-.sc-doc .sc-lnb-list:after {
-  content: ".";
-  display: block;
-  clear: both;
-  font-size: 0;
-  height: 0;
-  visibility: hidden;
-}
-
-.sc-doc .sc-lnb-item {
-  float: left;
-  width: 14.2857142857%;
-}
-
-.sc-doc .sc-lnb-item a {
-  color: #FFF5DE;
-}
-
-.sc-doc .sc-lnb-item ul {
-  font-size: 12px;
-  font-size: 1.2rem;
-}
-
-.sc-doc .sc-lnb-item ul li {
-  padding: 3px 0;
-  letter-spacing: 0;
-}
-
-.sc-doc .sc-lnb-item ul li em {
-  text-decoration: line-through;
-  color: #fff;
-  opacity: .5;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .sc-doc .sc-main {
@@ -140,6 +118,79 @@
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: 100;
+}
+
+.sc-doc .sc-gnb {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  position: fixed;
+  top: 94px;
+  z-index: 499;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.sc-doc .sc-gnb.on {
+  padding: 10px;
+  height: 260px;
+}
+
+.sc-doc .sc-gnb a {
+  color: #fff;
+  opacity: .8;
+  line-height: 18px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+}
+
+.sc-doc .sc-gnb .sc-nav-item {
+  vertical-align: top;
+  width: 12.5%;
+}
+
+.sc-doc .sc-gnb .sc-nav-item a {
+  background: none;
+}
+
+.sc-doc .sc-gnb .sc-nav-item a :hover {
+  background: none;
+}
+
+.sc-doc .sc-gnb .sc-dropdown {
+  display: block;
+  position: static;
+}
+
+.sc-doc .sc-gnb .sc-dropdown-has-arrow ul:before {
+  display: none;
+}
+
+.sc-doc .sc-gnb .sc-list {
+  background: none;
+  border: none;
+}
+
+.sc-doc .sc-gnb .sc-list li:hover {
+  background: none;
+}
+
+.sc-doc .sc-gnb .sc-list li a {
+  padding: 1px 20px;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.sc-doc .sc-gnb .sc-list li a:hover {
+  color: #fff;
+}
+
+.sc-doc .sc-gnb .sc-nav-toggle .icon-bar {
+  background-color: #FFF3EA;
 }
 
 .sc-doc code {
