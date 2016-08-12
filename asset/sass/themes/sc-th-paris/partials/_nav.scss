@@ -7,8 +7,8 @@
 	position:relative;
 	@include min-screen($screen-medium){
 		float:none;
-		display:table-cell;
-		width:.1%;
+		//display:table-cell;
+		//width:.1%;
 	}
 	&:last-child{
 		margin-right:0;

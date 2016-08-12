@@ -3,7 +3,7 @@
 // logo
 .sc-logo{
 	//margin:16px 0 0 15px;
-	padding:15px 17px;
+	padding:0 17px 15px;
 	position:relative;
 	text-align:center;
 	z-index:1;
@@ -14,13 +14,12 @@
 	img{
 		width:181px;
 	}
-    
-    // logo vertical
-	&.sc-logo-vertical{
-	    @include min-screen($screen-medium){
-            float:left;
-            text-align:center;
-        }
-	}
+}
 
+// logo vertical
+.sc-logo-vertical{
+    @include min-screen($screen-medium){
+           float:left;
+           text-align:center;
+       }
 }

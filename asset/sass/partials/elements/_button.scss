@@ -31,7 +31,7 @@ button::-moz-focus-inner {
 
 	&>span{
 		display:block;
-		padding:8px 15px;
+		padding:8px 20px;
 	}
 	&:hover{
 	//&>span{
@@ -58,21 +58,21 @@ button::-moz-focus-inner {
 	&-large{
 		@include font-size(17);
 		&>span{
-			padding:10px 20px;
+			padding:10px 25px;
 			
 		}
 	}
 	&-xlarge{
 		@include font-size(21);
 		&>span{
-			padding:12px 22px;
+			padding:12px 30px;
 			
 		}
 	}
 	&-xxlarge{
 		@include font-size(25);
 		&>span{
-			padding:15px 25px;
+			padding:15px 35px;
 			
 		}
 	}
@@ -155,195 +155,6 @@ button::-moz-focus-inner {
 	}
 }
 
-[class*=sc-color-]{
-	color:#fff;
-	text-shadow:1px 1px 1px #666;
-	span{
-		//color:#fff;
-		//text-shadow:1px 1px 1px #666;
-	}
 
-}
-
-.sc-color-chocolate{
-	border-color:$color-border-chocolate;
-	background:$color-chocolate;
-	&.sc-btn-nude{
-		color:$color-chocolate;
-		&:hover{
-			color:$color-active-chocolate;
-		}
-	}
-
-}
-
-.sc-color-worm{
-	border-color:$color-border-worm;
-	background:$color-worm;
-	&.sc-btn-nude{
-			color:$color-worm;
-		&:hover{
-			color:$color-active-worm;
-		}
-	}
-}
-
-.sc-color-salem{
-	border-color:$color-border-salem;
-	background:$color-salem;
-	&.sc-btn-nude{
-		color:$color-salem;
-		&:hover{
-			color:$color-active-salem;
-		}
-	}
-}
-
-
-.sc-color-gold{
-	border-color:$color-border-gold;
-	background:$color-gold;
-	&.sc-btn-nude{
-		color:$color-gold;
-		&:hover{
-			color:$color-active-gold;
-		}
-	}
-}
-
-.sc-color-denim{
-	border-color:$color-border-denim;
-	background:$color-denim;
-	&.sc-btn-nude{
-			color:$color-denim;
-		&:hover{
-			color:$color-active-denim;
-		}
-	}
-}
-
-.sc-color-heart{
-	border-color:$color-border-heart;
-	background:$color-heart;
-	&.sc-btn-nude{
-		color:$color-heart;
-		&:hover{
-			color:$color-active-heart;
-		}
-	}
-}
-
-.sc-color-rust{
-	border-color:$color-border-rust;
-	background:$color-rust;
-	&.sc-btn-nude{
-		color:$color-rust;
-		&:hover{
-			color:$color-active-rust;
-		}
-	}
-}
-
-.sc-color-brick{
-	border-color:$color-border-brick;
-	background:$color-brick;
-	&.sc-btn-nude{
-		color:$color-brick;
-		&:hover{
-			color:$color-active-brick;
-		}
-	}
-}
-
-
-.sc-color-chocolate-pastel{
-	border-color:$color-border-chocolate-pastel;
-	background:$color-chocolate-pastel;
-	&.sc-btn-nude{
-		color:$color-chocolate-pastel;
-		&:hover{
-			color:$color-active-chocolate-pastel;
-		}
-	}
-
-}
-
-.sc-color-worm-pastel{
-	border-color:$color-border-worm-pastel;
-	background:$color-worm-pastel;
-	&.sc-btn-nude{
-			color:$color-worm-pastel;
-		&:hover{
-			color:$color-active-worm-pastel;
-		}
-	}
-}
-
-.sc-color-salem-pastel{
-	border-color:$color-border-salem-pastel;
-	background:$color-salem-pastel;
-	&.sc-btn-nude{
-		color:$color-salem-pastel;
-		&:hover{
-			color:$color-active-salem-pastel;
-		}
-	}
-}
-
-
-.sc-color-gold-pastel{
-	border-color:$color-border-gold-pastel;
-	background:$color-gold-pastel;
-	&.sc-btn-nude{
-		color:$color-gold-pastel;
-		&:hover{
-			color:$color-active-gold-pastel;
-		}
-	}
-}
-
-.sc-color-denim-pastel{
-	border-color:$color-border-denim-pastel;
-	background:$color-denim-pastel;
-	&.sc-btn-nude{
-			color:$color-denim-pastel;
-		&:hover{
-			color:$color-active-denim-pastel;
-		}
-	}
-}
-
-.sc-color-heart-pastel{
-	border-color:$color-border-heart-pastel;
-	background:$color-heart-pastel;
-	&.sc-btn-nude{
-		color:$color-heart-pastel;
-		&:hover{
-			color:$color-active-heart-pastel;
-		}
-	}
-}
-
-.sc-color-rust-pastel{
-	border-color:$color-border-rust-pastel;
-	background:$color-rust-pastel;
-	&.sc-btn-nude{
-		color:$color-rust-pastel;
-		&:hover{
-			color:$color-active-rust-pastel;
-		}
-	}
-}
-
-.sc-color-brick-pastel{
-	border-color:$color-border-brick-pastel;
-	background:$color-brick-pastel;
-	&.sc-btn-nude{
-		color:$color-brick-pastel;
-		&:hover{
-			color:$color-active-brick-pastel;
-		}
-	}
-}
 
 

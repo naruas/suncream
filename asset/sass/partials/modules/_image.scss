@@ -26,15 +26,15 @@ img{
 	}
 }
 
-.sc-image-round{
+.sc-image-round,.sc-border-round{
 	border-radius:5px;
 }
 
-.sc-image-circle{
+.sc-image-circle,.sc-border-circle{
 	border-radius:100px;
 }
 
-.sc-image-outline{
+.sc-image-outline,.sc-border-outline{
 	border:1px solid #fff;
 	outline:1px solid $color-image-outline;
 }

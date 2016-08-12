@@ -18,8 +18,8 @@
 		left:0;
 		top:50%;
 		background:$color-bullet;
+		color:$color-bullet;
 	}
-
 	
 	&.sc-bullet-circle{
 		&:before{
@@ -27,6 +27,17 @@
 			height:6px;
 			border-radius:50px;
 			margin-top:-1px;
+		}
+	}
+	
+	&.sc-bullet-star{
+		&:before{
+			content:"*";
+			width:auto;
+			height:auto;
+			@include font-size(15);
+			background:none;
+			margin-top:-7px;
 		}
 	}
 	

@@ -107,8 +107,8 @@ select{
 	
 	.sc-select-label{
 		margin-top:-8px;
-		padding:0 10px;
-		//width:120px;
+		padding:0 30px 0 10px;
+		width:100%;
 		white-space:nowrap;
 		text-overflow:ellipsis;
 		overflow:hidden;
@@ -125,6 +125,7 @@ select{
 		cursor:pointer;
 		height:35px;
 		width:100%;
+		padding-right:30px;
 		border:none;
 		opacity:0;
 		filter: alpha(opacity=0);
@@ -132,7 +133,8 @@ select{
 		
 	}
 	.sc-select-list option{
-		padding:8px 0
+		padding:8px 0;
+		@include font-size(13);
 		
 	}
 	/*.sc-btn-select-down{

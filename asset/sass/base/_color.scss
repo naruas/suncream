@@ -51,175 +51,211 @@ $color-base:#BC376A;
 $color-border-base:#ad265a;
 $color-active-base:#a92f5e;
 
+
 //////////////////////////////////////////////////////////////////////////
 // chocolate
 //////////////////////////////////////////////////////////////////////////
-$color-chocolate:#E16A1B;
-$color-border-chocolate:#bf5814;
-$color-active-chocolate:#E16A1B;
+$color-chocolate:#8e684e;
+$color-border-chocolate:#825a3d;
+$color-active-chocolate:#8e684e;
 
 //////////////////////////////////////////////////////////////////////////
-// worm
+// green
 //////////////////////////////////////////////////////////////////////////
-$color-worm:#79BB16;
-$color-border-worm:#6ea916;
-$color-active-worm:#79BB16;
+$color-green:#7e9c4f;
+$color-border-green:#6f8e3e;
+$color-active-green:#7e9c4f;
 
 //////////////////////////////////////////////////////////////////////////
 // salem
 //////////////////////////////////////////////////////////////////////////
-$color-salem:#129446;
-$color-border-salem:#0f7d3b;
-$color-active-salem:#129446;
+$color-salem:#46795b;
+$color-border-salem:#356f4d;
+$color-active-salem:#46795b;
 
 //////////////////////////////////////////////////////////////////////////
 // denim
 //////////////////////////////////////////////////////////////////////////
-$color-denim:#1679BB;
-$color-border-denim:#0f639a;
-$color-active-denim:#1679BB;
+$color-denim:#456884;
+$color-border-denim:#345b79;
+$color-active-denim:#456884;
 
 //////////////////////////////////////////////////////////////////////////
 // Heart
 //////////////////////////////////////////////////////////////////////////
-$color-heart:#5929a2;
-$color-border-heart:#451292;
-$color-active-heart:#5929a2;
+$color-heart:#6b607b;
+$color-border-heart:#655879;
+$color-active-heart:#6b607b;
 
 //////////////////////////////////////////////////////////////////////////
 // gold
 //////////////////////////////////////////////////////////////////////////
-$color-gold:#deb41e;
-$color-border-gold:#c7a631;
-$color-active-gold:#deb41e;
+$color-gold:#ab9c68;
+$color-border-gold:#94875a;
+$color-active-gold:#ab9c68;
 
 //////////////////////////////////////////////////////////////////////////
 // rust
 //////////////////////////////////////////////////////////////////////////
-$color-rust:#AC5313;
-$color-border-rust:#843d0b;
-$color-active-rust:#AC5313;
+$color-rust:#7b6657;
+$color-border-rust:#6f503a;
+$color-active-rust:#7b6657;
 
 //////////////////////////////////////////////////////////////////////////
 // brick
 //////////////////////////////////////////////////////////////////////////
-$color-brick:#C12D1E;
-$color-border-brick:#8c2218;
-$color-active-brick:#C12D1E;
-
-
-//////////////////////////////////////////////////////////////////////////
-// chocolate-pastel
-//////////////////////////////////////////////////////////////////////////
-$color-chocolate-pastel:#8e684e;
-$color-border-chocolate-pastel:#825a3d;
-$color-active-chocolate-pastel:#8e684e;
+$color-brick:#804f4a;
+$color-border-brick:#6b3833;
+$color-active-brick:#804f4a;
 
 //////////////////////////////////////////////////////////////////////////
-// worm-pastel
+// night
 //////////////////////////////////////////////////////////////////////////
-$color-worm-pastel:#7e9c4f;
-$color-border-worm-pastel:#6f8e3e;
-$color-active-worm-pastel:#7e9c4f;
+$color-night:#363636;
+$color-border-night:#000;
+$color-active-night:#242424;
 
 //////////////////////////////////////////////////////////////////////////
-// salem-pastel
+// blade
 //////////////////////////////////////////////////////////////////////////
-$color-salem-pastel:#46795b;
-$color-border-salem-pastel:#356f4d;
-$color-active-salem-pastel:#46795b;
-
-//////////////////////////////////////////////////////////////////////////
-// denim-pastel
-//////////////////////////////////////////////////////////////////////////
-$color-denim-pastel:#456884;
-$color-border-denim-pastel:#345b79;
-$color-active-denim-pastel:#456884;
-
-//////////////////////////////////////////////////////////////////////////
-// Heart-pastel
-//////////////////////////////////////////////////////////////////////////
-$color-heart-pastel:#6b607b;
-$color-border-heart-pastel:#655879;
-$color-active-heart-pastel:#6b607b;
-
-//////////////////////////////////////////////////////////////////////////
-// gold-pastel
-//////////////////////////////////////////////////////////////////////////
-$color-gold-pastel:#ab9c68;
-$color-border-gold-pastel:#94875a;
-$color-active-gold-pastel:#ab9c68;
-
-//////////////////////////////////////////////////////////////////////////
-// rust-pastel
-//////////////////////////////////////////////////////////////////////////
-$color-rust-pastel:#7b6657;
-$color-border-rust-pastel:#6f503a;
-$color-active-rust-pastel:#7b6657;
-
-//////////////////////////////////////////////////////////////////////////
-// brick-pastel
-//////////////////////////////////////////////////////////////////////////
-$color-brick-pastel:#804f4a;
-$color-border-brick-pastel:#6b3833;
-$color-active-brick-pastel:#804f4a;
+$color-blade:#bc3737;
+$color-border-blade:#a52b2b;
+$color-active-blade:#a52b2b;
 
 
-//////////////////////////////////////////////////////////////////////////
-// chocolate-light
-//////////////////////////////////////////////////////////////////////////
-$color-chocolate-light:#fff5ef;
-$color-border-chocolate-light:#f5e0d1;
-$color-active-chocolate-light:#fff5ef;
-
-//////////////////////////////////////////////////////////////////////////
-// worm-light
-//////////////////////////////////////////////////////////////////////////
-$color-worm-light:#e7efdb;
-$color-border-worm-light:#c3da9f;
-$color-active-worm-light:#e7efdb;
-
-//////////////////////////////////////////////////////////////////////////
-// salem-light
-//////////////////////////////////////////////////////////////////////////
-$color-salem-light:#def3e6;
-$color-border-salem-light:#b4dec5;
-$color-active-salem-light:#def3e6;
-
-//////////////////////////////////////////////////////////////////////////
-// denim-light
-//////////////////////////////////////////////////////////////////////////
-$color-denim-light:#e5f1fb;
-$color-border-denim-light:#bcdcf5;
-$color-active-denim-light:#e5f1fb;
-
-//////////////////////////////////////////////////////////////////////////
-// Heart-light
-//////////////////////////////////////////////////////////////////////////
-$color-heart-light:#f3eefb;
-$color-border-heart-light:#dfd0f5;
-$color-active-heart-light:#f3eefb;
-
-//////////////////////////////////////////////////////////////////////////
-// gold-light
-//////////////////////////////////////////////////////////////////////////
-$color-gold-light:#fff9e2;
-$color-border-gold-light:#ece2be;
-$color-active-gold-light:#fff9e2;
-
-//////////////////////////////////////////////////////////////////////////
-// rust-light
-//////////////////////////////////////////////////////////////////////////
-$color-rust-light:#f5e7de;
-$color-border-rust-light:#f3cfb5;
-$color-active-rust-light:#f5e7de;
-
-//////////////////////////////////////////////////////////////////////////
-// brick-light
-//////////////////////////////////////////////////////////////////////////
-$color-brick-light:#fff2f1;
-$color-border-brick-light:#ffdedb;
-$color-active-brick-light:#fff2f1;
+[class*=sc-color-]{
+	color:#fff;
+	//text-shadow:1px 1px 1px #666;
+	span{
+		color:#fff;
+		opacity:.8;
+		//text-shadow:1px 1px 1px #666;
+	}
+	
+	a,a:link,a:hover,a:visited,a:active{
+		color:#fff;
+		opacity:.8;
+		&:hover{
+			color:#fff;
+			opacity:1;
+		}
+	}
+}
 
 
+.sc-color-chocolate{
+	border-color:$color-border-chocolate !important;
+	background:$color-chocolate !important;
+	&.sc-btn-nude{
+		color:$color-chocolate !important;
+		&:hover{
+			//color:$color-active-chocolate !important;
+		}
+	}
+
+}
+
+.sc-color-green{
+	border-color:$color-border-green !important;
+	background:$color-green !important;
+	&.sc-btn-nude{
+			color:$color-green !important;
+		&:hover{
+			//color:$color-active-green !important;
+		}
+	}
+}
+
+.sc-color-salem{
+	border-color:$color-border-salem !important;
+	background:$color-salem !important;
+	&.sc-btn-nude{
+		color:$color-salem !important;
+		&:hover{
+			//color:$color-active-salem !important;
+		}
+	}
+}
+
+
+.sc-color-gold{
+	border-color:$color-border-gold !important;
+	background:$color-gold !important;
+	&.sc-btn-nude{
+		color:$color-gold !important;
+		&:hover{
+			//color:$color-active-gold !important;
+		}
+	}
+}
+
+.sc-color-denim{
+	border-color:$color-border-denim !important;
+	background:$color-denim !important;
+	&.sc-btn-nude{
+			color:$color-denim !important;
+		&:hover{
+			//color:$color-active-denim !important
+		}
+	}
+}
+
+.sc-color-heart{
+	border-color:$color-border-heart !important;
+	background:$color-heart !important;
+	&.sc-btn-nude{
+		color:$color-heart !important;
+		&:hover{
+			color:$color-active-heart !important;
+		}
+	}
+}
+
+.sc-color-rust{
+	border-color:$color-border-rust !important;
+	background:$color-rust !important;
+	&.sc-btn-nude{
+		color:$color-rust !important;
+		&:hover{
+			//color:$color-active-rust !important;
+		}
+	}
+}
+
+.sc-color-brick{
+	border-color:$color-border-brick !important;
+	background:$color-brick !important;
+	&.sc-btn-nude{
+		color:$color-brick !important;
+		&:hover{
+			//color:$color-active-brick !important;
+		}
+	}
+}
+
+.sc-color-blade{
+	border-color:$color-border-blade !important;
+	background:$color-blade !important;
+	&.sc-btn-nude{
+		color:$color-blade !important;
+		&:hover{
+			//color:$color-active-blade !important;
+		}
+	}
+}
+
+.sc-color-night{
+	border-color:$color-border-night !important;
+	background:$color-night !important;
+	color:#CEAE36;
+	span{
+		color:#CEAE36;
+	}
+	&.sc-btn-nude{
+		color:$color-night !important;
+		&:hover{
+			//color:$color-active-night !important;
+		}
+	}
+}
 

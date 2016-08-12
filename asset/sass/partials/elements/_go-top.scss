@@ -2,12 +2,13 @@
 
 .sc-go-top{
 	padding:7px;
-	border:1px solid #828282;
 	position:fixed;
 	right:20px;
 	bottom:50px;
 	
 	text-align:center;
 	border-radius:$base-border-radius;
-	background:#fff;
+	
+	z-index:999;
+	
 }
