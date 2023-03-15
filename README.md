@@ -47,7 +47,7 @@ asset/
 
 ### Creators
 
-**Joonglim Nam**
+**hiro**
 
 * <https://naruas.github.io/suncream/>
 
